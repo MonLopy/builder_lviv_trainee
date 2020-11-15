@@ -1,0 +1,2982 @@
+@import 'base/base';
+@import 'base/variables';
+@import 'base/mixins';
+@font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy/Gilroy-Bold.ttf');
+    font-weight: 700;
+}
+
+.b-header {
+    height: 1014px;
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    @keyframes slider {
+        0% {
+            background: url('../photos/header_1.png');
+            background-size: cover;
+        }
+        25% {
+            background: url('../photos/header_2.png');
+            background-size: cover;
+        }
+        50% {
+            background: url('../photos/header_3.png');
+            background-size: cover;
+        }
+        75% {
+            background: url('../photos/header_4.png');
+            background-size: cover;
+        }
+        100% {
+            background: url('../photos/header_1.png');
+            background-size: cover;
+        }
+    }
+    .b-tlf-number {
+        height: 38px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        .tlf-num-1,
+        .tlf-num-2 {
+            font-family: 'Gilroy';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+        }
+        .tlf-num-1 {
+            margin-right: 47px;
+        }
+        .tlf-num-2 {
+            margin-right: 105px;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 90.65px;
+            width: 100px;
+            .icons-2 {
+                margin-right: 22.53pxx;
+            }
+        }
+    }
+    .b-submenu {
+        display: flex;
+        justify-content: space-between;
+        .b-logo-submenu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 73px;
+            height: 80px;
+            color: $color_yellow;
+            font-family: 'Gilroy-Bold';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            margin-left: 100px;
+            letter-spacing: 0.07em;
+            margin-top: 1px;
+            @include size(73px,
+            80px);
+        }
+        .navigation {
+            list-style-type: none;
+            display: flex;
+            color: #fff;
+            margin-top: 22px;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+            li {
+                height: 37px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                letter-spacing: 0.07em;
+                &:hover {
+                    color: $color_yellow;
+                    border-bottom: 3px solid $color_yellow;
+                    cursor: pointer;
+                }
+            }
+            .navigator-menu-1 {
+                margin-right: 80px;
+            }
+            .navigator-menu-2 {
+                margin-right: 86px;
+            }
+            .navigator-menu-3 {
+                margin-right: 57px;
+            }
+            .navigator-menu-4 {
+                margin-right: 64px;
+            }
+        }
+        .b-btn-submenu {
+            height: 37px;
+            width: 180px;
+            border: 2px solid $color_yellow;
+            margin-right: 83px;
+            margin-top: 23px;
+            font-family: 'Gilroy-Bold';
+            font-size: 16px;
+            letter-spacing: -0.015em;
+            color: $color_yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .call {
+            display: block;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .menu-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        .content {
+            width: 860px;
+            margin-top: 136px;
+            .menu-main-text {
+                width: 860;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 56px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: #fff;
+            }
+            .menu-about {
+                width: 776px;
+                margin-top: 29px;
+                font-family: 'Gilroy';
+                font-size: 18px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: #fff;
+            }
+            .b-menu-btn {
+                @include size(166px,
+                43px);
+                margin-top: 60px;
+                background-color: $color_yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+                font-family: 'Gilroy-Bold';
+                font-size: 16px;
+                letter-spacing: -0.015em;
+                cursor: pointer;
+            }
+        }
+    }
+    .info-about-work {
+        margin-top: 285px;
+        height: 169px;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div {
+            width: 156px;
+            height: 89px;
+        }
+        .business {
+            background: url('../photos/business\ 1.png') no-repeat;
+            background-position: center center;
+            position: relative;
+            .text-in-business {
+                top: 25px;
+                position: absolute;
+                @include size(136px,
+                56px);
+                color: #fff;
+                left: -10px;
+            }
+        }
+        .money {
+            background: url('../photos/money-bag\ 1.png') no-repeat;
+            background-position: center center;
+            position: relative;
+            .text-in-money {
+                position: absolute;
+                @include size(145px,
+                56px);
+                color: #fff;
+                left: -20px;
+                top: 27px;
+            }
+        }
+        .document {
+            background: url('../photos/business-report\ 1.png')no-repeat;
+            background-position: center center;
+            position: relative;
+            .text-in-document {
+                top: 20px;
+                left: -45px;
+                position: absolute;
+                @include size(129px,
+                100px);
+                color: #fff;
+            }
+        }
+        .time {
+            background: url('../photos/fast\ 2.png') no-repeat;
+            background-position: center center;
+            position: relative;
+            .text-in-time {
+                top: 20px;
+                left: -30px;
+                position: absolute;
+                @include size(105px,
+                80px);
+                color: #fff;
+            }
+        }
+        .medal {
+            background: url('../photos/guarantee\ 1.png') no-repeat;
+            background-position: center center;
+            height: 93px;
+            position: relative;
+            .text-in-medal {
+                top: 20px;
+                left: -5px;
+                position: absolute;
+                @include size(85px,
+                56px);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.b-info {
+    height: 720px;
+    display: flex;
+    .b-photo_1 {
+        width: 555px;
+        background: url('../photos/info.png');
+        background-size: cover;
+        position: relative;
+        .b-exp {
+            @include size(238px,
+            220px);
+            background-color: $color_yellow;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .ten {
+                font-family: 'Playfair Display';
+                font-size: 70px;
+                font-weight: 400;
+                line-height: 98px;
+                letter-spacing: 0.20000000298023224px;
+                color: white;
+                margin-left: 34px;
+                margin-top: 12px;
+                width: 150px;
+            }
+            .experience {
+                width: 113px;
+                height: 84px;
+                font-family: 'Gilroy';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                margin-left: 34px;
+                color: white;
+            }
+        }
+    }
+    .b-who-we-are {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background-image: url("../photos/two-bedroom-x2--plan\ 2.png");
+        background-repeat: no-repeat;
+        background-size: 692px 606px;
+        background-position: 120% 330%;
+        .b-who-we-are-2 {
+            width: 542px;
+            display: flex;
+            flex-direction: column;
+            .about_us {
+                color: $color_yellow;
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 9.699999809265137px;
+            }
+            .who-we-are {
+                margin-top: 8px;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+            }
+            .text-info_1 {
+                margin-top: 27px;
+            }
+            .text-info_1,
+            .text-info_2 {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                color: #7C7C7C;
+            }
+        }
+    }
+}
+
+.b-stats {
+    height: 531px;
+    background-color: black;
+    .b-parts-of-work {
+        display: flex;
+        flex-direction: column;
+        margin-left: 167px;
+        h4 {
+            font-family: 'Gilroy';
+            font-size: 18px;
+            color: $color_yellow;
+            letter-spacing: 9.699999809265137px;
+            text-align: left;
+            padding-top: 62px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: white;
+            margin-top: 8px;
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.20000000298023224px;
+        }
+        .parts {
+            display: flex;
+            margin-top: 97.5px;
+            .circle-1 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+            }
+            .circle-1:after {
+                border-radius: 50%;
+                display: block;
+                content: "1";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+            }
+            .p1 {
+                margin: 0;
+                background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(-30deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+            }
+            .line-1 {
+                height: 2px;
+                width: 128px;
+                background-color: rgb(181, 172, 172);
+                margin-top: 34px;
+            }
+            .circle-2 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+            }
+            .circle-2:after {
+                border-radius: 50%;
+                display: block;
+                content: "2";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+            }
+            .p2 {
+                margin: 0;
+                background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(40deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+            }
+            .circle-3 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+            }
+            .circle-3:after {
+                border-radius: 50%;
+                display: block;
+                content: "3";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+            }
+            .p3 {
+                margin: 0;
+                background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+            }
+            .circle-4 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+            }
+            .circle-4:after {
+                border-radius: 50%;
+                display: block;
+                content: "4";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+            }
+            .p4 {
+                margin: 0;
+                background-image: linear-gradient(150deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+            }
+            .circle-5 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+            }
+            .circle-5:after {
+                border-radius: 50%;
+                display: block;
+                content: "5";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+            }
+            .p5 {
+                margin: 0;
+                background-image: linear-gradient(210deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+            }
+            .circle-6 {
+                display: inline-block;
+                margin: .5em;
+                width: 66px;
+                height: 66px;
+                position: relative;
+                border-radius: 50%;
+                background-color: $color_yellow;
+            }
+            .circle-6:after {
+                border-radius: 50%;
+                display: block;
+                content: "6";
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                background: black;
+                position: absolute;
+                color: white;
+                top: .1em;
+                left: .1em;
+                height: 58px;
+                width: 58px;
+                margin-right: 2%;
+            }
+            .p6 {
+                margin: 0;
+            }
+        }
+        .b-text-we-do {
+            margin-top: 29.24px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 92px;
+            font-family: 'Gilroy';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.20000000298023224px;
+            color: #FFFFFF;
+            .paragraph-1 {
+                @include size(155px,
+                44px);
+            }
+            .paragraph-2 {
+                @include size(156px,
+                60px);
+                padding-left: 1px;
+            }
+            .paragraph-3 {
+                padding-left: 10px;
+                @include size(164px,
+                20px);
+            }
+            .paragraph-4 {
+                padding-left: 5px;
+                @include size(137px,
+                22px);
+            }
+            .paragraph-5 {
+                padding-left: 20px;
+                @include size(130px,
+                44px);
+            }
+            .paragraph-6 {
+                margin-right: 92px;
+                @include size(137px,
+                22px);
+            }
+        }
+        .line-1 {
+            width: 100px;
+        }
+    }
+}
+
+.b-jobs {
+    height: auto;
+    background-image: url("../photos/two-bedroom-x2--plan\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 692px 606px;
+    background-position: 37% 120%;
+    .part {
+        font-family: 'Gilroy';
+        margin-top: 100px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 9.699999809265137px;
+        text-align: center;
+        color: $color_yellow;
+    }
+    .our-jobs {
+        font-family: 'Playfair Display';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+    }
+    .b-info-and-work {
+        display: flex;
+        flex-direction: row;
+        .b-info-about-job {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+            h5 {
+                margin-top: 166px;
+                font-family: 'Gilroy-Bold';
+                font-size: 24px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+            }
+            .text-about-job {
+                margin-top: 24px;
+                font-family: 'Gilroy';
+                font-size: 18px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                // width: 80%;
+            }
+            .deadline {
+                margin-top: 31px;
+                font-family: 'Gilroy';
+                font-size: 20px;
+                font-style: normal;
+                letter-spacing: 0.20000000298023224px;
+                strong {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 18px;
+                    letter-spacing: 0.20000000298023224px;
+                }
+            }
+            .square {
+                margin-top: 12px;
+                font-family: 'Gilroy';
+                font-size: 20px;
+                font-style: normal;
+                letter-spacing: 0.20000000298023224px;
+                strong {
+                    font-family: 'Gilroy-Bold';
+                    font-size: 18px;
+                    letter-spacing: 0.20000000298023224px;
+                }
+            }
+        }
+        .photos {
+            height: 698px;
+            // width: 668px;
+            width: 50%;
+            margin-left: 80px;
+            display: flex;
+            margin-top: 28px;
+        }
+        .choose {
+            width: 102px;
+            height: 400px;
+            .sz {
+                @include size(102px,
+                105px);
+            }
+            .photo-1 {
+                background: url("../photos/jobs1_mini_1.png");
+                background-size: cover;
+                margin-bottom: 5px;
+            }
+            .photo-2 {
+                background: url("../photos/jobs1_mini_2.png");
+                background-size: cover;
+                margin-bottom: 5px;
+            }
+            .photo-3 {
+                background: url("../photos/jobs1_mini_3.png");
+                background-size: cover;
+            }
+        }
+        .main-photo {
+            width: 580px;
+            margin-left: 5px;
+            height: 604px;
+            .block {
+                display: block;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            img {
+                display: none;
+            }
+        }
+        .b-check-next {
+            @include size( 580px,
+            92.5px);
+            background-color: $color_yellow;
+            margin-left: 5px;
+            display: flex;
+            .points {
+                display: flex;
+                align-items: center;
+                margin-left: 99px;
+                .active {
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 25px;
+                }
+                .p {
+                    color: #555555;
+                    margin-left: 20px;
+                    font-size: 20px;
+                }
+            }
+            .arrows {
+                margin-left: 169px;
+                color: #fff;
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                font-size: 30px;
+                .left-1 {
+                    cursor: pointer;
+                    -webkit-tap-highlight-color: transparent;
+                }
+                .right-1 {
+                    margin-left: 59px;
+                    cursor: pointer;
+                    -webkit-tap-highlight-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+.b-feedback {
+    height: 671px;
+    background: url("../photos/feedback.png");
+    display: flex;
+    justify-content: center;
+    .feedback-info {
+        height: 671px;
+        width: 766px;
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h4 {
+            font-family: 'Gilroy';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 9.699999809265137px;
+            text-align: center;
+            color: $color_yellow;
+            margin-top: 75px;
+        }
+        h2 {
+            margin-top: 8px;
+            width: 490px;
+            text-align: center;
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.20000000298023224px;
+            color: white;
+        }
+        .text-feedback {
+            margin-top: 130px;
+            width: 562px;
+            text-align: center;
+            color: white;
+            font-family: 'Gilroy';
+            font-size: 16px;
+            font-style: normal;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                font-size: 454px;
+                bottom: 300px;
+                color: #555555;
+                opacity: 0.3;
+            }
+        }
+        .author {
+            margin-top: 21px;
+            font-family: 'Gilroy-Bold';
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+            text-align: center;
+            color: white;
+        }
+        .slice {
+            display: flex;
+            margin-top: 80px;
+            .arrow-left-2 {
+                margin-right: 41px;
+                list-style-type: none;
+                li {
+                    color: #fff;
+                    font-size: 30px;
+                }
+            }
+            .points-2 {
+                display: flex;
+                align-items: center;
+                color: #9b9b9b;
+                .active-point-2 {
+                    font-size: 25px;
+                    color: $color_yellow;
+                    box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
+                }
+                .p-2-1 {
+                    font-size: 20px;
+                    margin-left: 23px;
+                }
+            }
+        }
+        .arrow-right-2 {
+            margin-left: 20px;
+            list-style-type: none;
+            li {
+                color: $color_yellow;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.b-contact {
+    background-color: $color_yellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 403px;
+    .b-contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: start;
+        .contact-text {
+            padding-top: 45px;
+            font-family: 'Playfair Display';
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        .contact-info {
+            font-family: 'Gilroy';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: normal;
+            font-weight: 400;
+            letter-spacing: 0.005em;
+        }
+        .contact-form {
+            .b-user-contact {
+                display: flex;
+                justify-content: space-between;
+                width: 700px;
+                .inpt-name {
+                    margin-top: 65px;
+                    background-color: $color_yellow;
+                    border: none;
+                    outline: none;
+                    border-bottom: 0.5px solid #FFFFFF;
+                    @include size(304px,
+                    24px);
+                    &::placeholder {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        letter-spacing: 0.07em;
+                        color: #FFFFFF;
+                        margin-bottom: 7px;
+                        // mix-blend-mode: 72%;
+                    }
+                }
+                .inpt-tel {
+                    margin-top: 65px;
+                    background-color: $color_yellow;
+                    border: none;
+                    border-bottom: 0.5px solid #FFFFFF;
+                    @include size(304px,
+                    24px);
+                    outline: none;
+                    &::placeholder {
+                        font-family: 'Gilroy';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        letter-spacing: 0.07em;
+                        color: #FFFFFF;
+                        margin-bottom: 7px;
+                        // mix-blend-mode: 72%;
+                    }
+                }
+            }
+        }
+    }
+    .inpt-text {
+        margin-top: 42px;
+        background-color: $color_yellow;
+        border: none;
+        border-bottom: 0.5px solid #FFFFFF;
+        @include size(100%,
+        24px);
+        outline: none;
+        &::placeholder {
+            font-family: 'Gilroy';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.07em;
+            color: #FFFFFF;
+            margin-bottom: 7px;
+            // mix-blend-mode: 72%;
+        }
+    }
+    .btn-send {
+        width: 128px;
+        height: 42px;
+        margin-top: 42px;
+        background-color: #fff;
+        color: $color_yellow;
+        font-family: 'Gilroy';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.b-footer {
+    height: 403px;
+    background-color: $color_black;
+    color: white;
+    .b-footer-info {
+        display: flex;
+        justify-content: space-around;
+        .b-logo {
+            div {
+                color: $color_yellow;
+                font-family: 'Gilroy-Bold';
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                letter-spacing: 0.07em;
+                margin-top: 114px;
+                @include size(73px,
+                80px);
+            }
+            p {
+                @include size(308px,
+                75px);
+            }
+        }
+        .b-about-us {
+            ul {
+                list-style-type: none;
+                margin-top: 154px;
+                .list_2 {
+                    margin-top: 23px;
+                }
+                .list_3 {
+                    margin-top: 23px;
+                }
+            }
+        }
+        .b-adress {
+            margin-top: 154px;
+            .adress-phone {
+                margin-top: 46px;
+            }
+        }
+        .b-find-us {
+            ul {
+                margin-top: 164px;
+                list-style-type: none;
+                li img {
+                    @include size(18.76px,
+                    18.76px);
+                }
+                .find-us-li-2 {
+                    margin-top: 21.24px;
+                }
+            }
+        }
+    }
+}
+
+// end first-desktop
+// start tablet
+@media all and (max-width:768px) {
+    .b-header {
+        height: 700px;
+        .b-tlf-number {
+            display: none;
+        }
+        .b-submenu {
+            display: flex;
+            justify-content: space-between;
+            .b-logo-submenu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 73px;
+                height: 80px;
+                color: $color_yellow;
+                font-family: 'Gilroy-Bold';
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                margin-left: 20px;
+                letter-spacing: 0.07em;
+                margin-top: 1px;
+                @include size(73px,
+                80px);
+            }
+            .navigation {
+                display: none;
+            }
+            .b-btn-submenu {
+                height: 37px;
+                width: 180px;
+                border: 2px solid $color_yellow;
+                margin-right: 50px;
+                margin-top: 23px;
+                font-family: 'Gilroy-Bold';
+                font-size: 18px;
+                letter-spacing: -0.015em;
+                color: $color_yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .call {
+                display: block;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .menu-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .content {
+                width: 390px;
+                margin-top: 136px;
+                .menu-main-text {
+                    width: 300;
+                    font-family: 'Playfair Display';
+                    font-size: 23px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    padding-left: 30px;
+                    color: #fff;
+                }
+                .menu-about {
+                    width: 300px;
+                    margin-top: 29px;
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    letter-spacing: 0.20000000298023224px;
+                    padding-left: 73px;
+                    color: #fff;
+                    margin-right: 0px;
+                }
+                .b-menu-btn {
+                    @include size(175px,
+                    48px);
+                    margin-top: 60px;
+                    background-color: $color_yellow;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+                    font-family: 'Gilroy-Bold';
+                    font-size: 16px;
+                    letter-spacing: -0.015em;
+                    cursor: pointer;
+                }
+            }
+        }
+        .info-about-work {
+            display: none;
+            div {
+                width: 100px;
+                height: 95px;
+            }
+            .business {
+                background: url('../photos/business\ 1.png') no-repeat;
+                background-position: 100% 100%;
+                background-size: cover;
+                position: relative;
+                .text-in-business {
+                    top: 25px;
+                    position: absolute;
+                    @include size(136px,
+                    56px);
+                    color: #fff;
+                    left: -10px;
+                }
+            }
+            .money {
+                background: url('../photos/money-bag\ 1.png') no-repeat;
+                background-position: center center;
+                position: relative;
+                .text-in-money {
+                    position: absolute;
+                    @include size(145px,
+                    56px);
+                    color: #fff;
+                    left: -20px;
+                    top: 27px;
+                }
+            }
+            .document {
+                background: url('../photos/business-report\ 1.png')no-repeat;
+                background-position: center center;
+                position: relative;
+                .text-in-document {
+                    top: 20px;
+                    left: -45px;
+                    position: absolute;
+                    @include size(129px,
+                    100px);
+                    color: #fff;
+                }
+            }
+            .time {
+                background: url('../photos/fast\ 2.png') no-repeat;
+                background-position: center center;
+                position: relative;
+                .text-in-time {
+                    top: 20px;
+                    left: -30px;
+                    position: absolute;
+                    @include size(105px,
+                    80px);
+                    color: #fff;
+                }
+            }
+            .medal {
+                background: url('../photos/guarantee\ 1.png') no-repeat;
+                background-position: center center;
+                height: 93px;
+                position: relative;
+                .text-in-medal {
+                    top: 20px;
+                    left: -5px;
+                    position: absolute;
+                    @include size(85px,
+                    56px);
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .b-info {
+        height: 600px;
+        display: flex;
+        .b-photo_1 {
+            width: 40%;
+            background: url('../photos/info.png') no-repeat;
+            position: relative;
+            margin-right: 20px;
+            .b-exp {
+                @include size(138px,
+                130px);
+                background-color: $color_yellow;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                .ten {
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    color: white;
+                    margin-left: 34px;
+                    margin-top: 0px;
+                    width: 65px;
+                    height: 70px;
+                    padding-bottom: 20px;
+                }
+                .experience {
+                    width: 113px;
+                    height: 84px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-left: 34px;
+                    color: white;
+                }
+            }
+        }
+        .b-who-we-are {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%px;
+            background-image: url("../photos/two-bedroom-x2--plan\ 2.png");
+            background-repeat: no-repeat;
+            background-size: 692px 606px;
+            background-position: 120% 330%;
+            .b-who-we-are-2 {
+                width: 438px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .about_us {
+                    color: $color_yellow;
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    font-weight: 400;
+                    letter-spacing: 9.699999809265137px;
+                }
+                .who-we-are {
+                    margin-top: 8px;
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                }
+                .text-info_1 {
+                    margin-top: 27px;
+                }
+                .text-info_1,
+                .text-info_2 {
+                    font-family: 'Gilroy';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    width: 320px;
+                    letter-spacing: 0.20000000298023224px;
+                    color: #7C7C7C;
+                }
+            }
+        }
+    }
+    .b-stats {
+        height: 531px;
+        background-color: black;
+        .b-parts-of-work {
+            display: flex;
+            flex-direction: column;
+            margin-left: 34px;
+            h4 {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                color: $color_yellow;
+                letter-spacing: 9.699999809265137px;
+                text-align: left;
+                padding-top: 62px;
+                text-transform: uppercase;
+            }
+            h2 {
+                color: white;
+                margin-top: 8px;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+            }
+            .parts {
+                display: flex;
+                margin-top: 97.5px;
+                width: 700px;
+                .circle-1 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-1:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "1";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p1 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(-30deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .line-1 {
+                    height: 2px;
+                    width: 60px;
+                    background-color: rgb(181, 172, 172);
+                    margin-top: 34px;
+                }
+                .circle-2 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-2:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "2";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p2 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(40deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-3 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-3:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "3";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p3 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-4 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-4:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "4";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p4 {
+                    margin: 0;
+                    background-image: linear-gradient(150deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-5 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-5:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "5";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p5 {
+                    margin: 0;
+                    background-image: linear-gradient(210deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-6 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                    background-color: $color_yellow;
+                }
+                .circle-6:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "6";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p6 {
+                    margin: 0;
+                }
+            }
+            .b-text-we-do {
+                margin-top: 29.24px;
+                width: 700px;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 92px;
+                font-family: 'Gilroy';
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                color: #FFFFFF;
+                .paragraph-1 {
+                    @include size(155px,
+                    44px);
+                }
+                .paragraph-2 {
+                    @include size(156px,
+                    60px);
+                    padding-left: 20px;
+                }
+                .paragraph-3 {
+                    // padding-left: 10px;
+                    @include size(164px,
+                    20px);
+                    padding-left: 0px;
+                }
+                .paragraph-4 {
+                    // padding-left: 5px;
+                    @include size(137px,
+                    22px);
+                }
+                .paragraph-5 {
+                    // padding-left: 20px;
+                    @include size(130px,
+                    44px);
+                }
+                .paragraph-6 {
+                    margin-right: 0px;
+                    @include size(107px,
+                    22px);
+                }
+            }
+        }
+    }
+    .b-jobs {
+        height: 800px;
+        background-image: url("../photos/two-bedroom-x2--plan\ 1.png");
+        background-repeat: no-repeat;
+        background-size: 692px 606px;
+        background-position: 37% 120%;
+        .part {
+            font-family: 'Gilroy';
+            margin-top: 50px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 9.699999809265137px;
+            text-align: center;
+            color: $color_yellow;
+        }
+        .our-jobs {
+            font-family: 'Playfair Display';
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+        }
+        .b-info-and-work {
+            display: flex;
+            width: 60%;
+            flex-direction: row;
+            .b-info-about-job {
+                display: flex;
+                flex-direction: column;
+                margin-left: 50px;
+                width: 300px;
+                h5 {
+                    margin-top: 166px;
+                    font-family: 'Gilroy-Bold';
+                    font-size: 24px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                }
+                .text-about-job {
+                    margin-top: 20px;
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                }
+                .deadline {
+                    margin-top: 31px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    letter-spacing: 0.20000000298023224px;
+                    strong {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 18px;
+                        letter-spacing: 0.20000000298023224px;
+                    }
+                }
+                .square {
+                    margin-top: 12px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    letter-spacing: 0.20000000298023224px;
+                    strong {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 18px;
+                        letter-spacing: 0.20000000298023224px;
+                    }
+                }
+            }
+            .photos-gallery {
+                width: 40%;
+                margin-top: 9px;
+            }
+            .photos {
+                height: 698px;
+                width: 451px;
+                margin-left: 40px;
+                display: flex;
+                margin-top: 28px;
+            }
+            .choose {
+                width: 0px;
+                height: 0px;
+                display: none;
+                .sz {
+                    @include size(0px,
+                    0px);
+                }
+                .photo-1 {
+                    display: none;
+                }
+                .photo-2 {
+                    display: none;
+                }
+                .photo-3 {
+                    display: none;
+                }
+            }
+            .main-photo {
+                width: 446px;
+                margin-left: 5px;
+                height: 604px;
+                .block {
+                    display: block;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                }
+                img {
+                    display: none;
+                }
+            }
+            .b-check-next {
+                @include size(98.8%,
+                92.5px);
+                background-color: $color_yellow;
+                margin-left: 5px;
+                display: flex;
+                position: relative;
+                .points {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 40%;
+                    .active {
+                        margin-left: 20px;
+                        color: white;
+                        font-size: 25px;
+                    }
+                    .p {
+                        color: #555555;
+                        margin-left: 20px;
+                        font-size: 20px;
+                    }
+                }
+                .arrows {
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+                    font-size: 50px;
+                    position: absolute;
+                    justify-content: space-between;
+                    bottom: 400%;
+                    @include size(400px,
+                    50px);
+                    right: 2%;
+                    .left-1 {
+                        cursor: pointer;
+                        -webkit-tap-highlight-color: transparent;
+                        border-radius: 50%;
+                        opacity: 0.5;
+                        background: rgb(208, 203, 203);
+                        @include size(50px,
+                        50px);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .right-1 {
+                        cursor: pointer;
+                        // padding-left: 10px;
+                        -webkit-tap-highlight-color: transparent;
+                        opacity: 0.5;
+                        background: rgb(208, 203, 203);
+                        border-radius: 50%;
+                        @include size(50px,
+                        50px);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .b-feedback {
+        height: 671px;
+        background: url("../photos/feedback.png");
+        display: flex;
+        justify-content: center;
+        .feedback-info {
+            height: 671px;
+            width: 766px;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h4 {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 9.699999809265137px;
+                text-align: center;
+                color: $color_yellow;
+                margin-top: 75px;
+            }
+            h2 {
+                margin-top: 8px;
+                width: 490px;
+                text-align: center;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                color: white;
+            }
+            .text-feedback {
+                margin-top: 130px;
+                width: 562px;
+                text-align: center;
+                color: white;
+                font-family: 'Gilroy';
+                font-size: 16px;
+                font-style: normal;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+                position: relative;
+                &::after {
+                    content: "„";
+                    position: absolute;
+                    font-size: 454px;
+                    bottom: 300px;
+                    color: #555555;
+                    opacity: 0.3;
+                }
+            }
+            .author {
+                margin-top: 21px;
+                font-family: 'Gilroy-Bold';
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: -0.015em;
+                text-align: center;
+                color: white;
+            }
+            .slice {
+                display: flex;
+                margin-top: 80px;
+                .arrow-left-2 {
+                    margin-right: 41px;
+                    list-style-type: none;
+                    li {
+                        color: #fff;
+                        font-size: 30px;
+                    }
+                }
+                .points-2 {
+                    display: flex;
+                    align-items: center;
+                    color: #9b9b9b;
+                    .active-point-2 {
+                        font-size: 25px;
+                        color: $color_yellow;
+                        box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
+                    }
+                    .p-2-1 {
+                        font-size: 20px;
+                        margin-left: 23px;
+                    }
+                }
+            }
+            .arrow-right-2 {
+                margin-left: 20px;
+                display: none;
+                li {
+                    color: $color_yellow;
+                    font-size: 30px;
+                }
+            }
+            .arrow-left-2 {
+                display: none;
+            }
+        }
+    }
+    .b-contact {
+        background-color: $color_yellow;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 403px;
+        height: 445px;
+        .b-contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-self: start;
+            .contact-text {
+                padding-top: 45px;
+                font-family: 'Playfair Display';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                margin-left: 20%;
+            }
+            .contact-info {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: normal;
+                font-weight: 400;
+                letter-spacing: 0.005em;
+                margin-left: 20%;
+                width: 420px;
+                height: 80px;
+            }
+            .contact-form {
+                .b-user-contact {
+                    display: flex;
+                    justify-content: start;
+                    width: 700px;
+                    .inpt-name {
+                        margin-top: 65px;
+                        background-color: $color_yellow;
+                        border: none;
+                        outline: none;
+                        border-bottom: 0.5px solid #FFFFFF;
+                        @include size(20%,
+                        24px);
+                        margin-left: 20%;
+                        &::placeholder {
+                            font-family: 'Gilroy';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            letter-spacing: 0.07em;
+                            color: #FFFFFF;
+                            margin-bottom: 7px;
+                            // mix-blend-mode: 72%;
+                        }
+                    }
+                    .inpt-tel {
+                        margin-top: 65px;
+                        background-color: $color_yellow;
+                        border: none;
+                        border-bottom: 0.5px solid #FFFFFF;
+                        @include size(30%,
+                        24px);
+                        margin-left: 10%;
+                        outline: none;
+                        &::placeholder {
+                            font-family: 'Gilroy';
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            letter-spacing: 0.07em;
+                            color: #FFFFFF;
+                            margin-bottom: 7px;
+                            // mix-blend-mode: 72%;
+                        }
+                    }
+                }
+            }
+        }
+        .inpt-text {
+            margin-top: 42px;
+            background-color: $color_yellow;
+            border: none;
+            border-bottom: 0.5px solid #FFFFFF;
+            margin-left: 20%;
+            @include size(60%,
+            24px);
+            outline: none;
+            &::placeholder {
+                font-family: 'Gilroy';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                letter-spacing: 0.07em;
+                color: #FFFFFF;
+                margin-bottom: 7px;
+                // mix-blend-mode: 72%;
+            }
+        }
+        .btn-send {
+            width: 128px;
+            height: 42px;
+            margin-top: 42px;
+            margin-left: 20%;
+            background-color: #fff;
+            color: $color_yellow;
+            font-family: 'Gilroy';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .b-footer {
+        height: 453px;
+        background-color: $color_black;
+        color: white;
+        .b-footer-info {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            .b-logo {
+                div {
+                    color: $color_yellow;
+                    font-family: 'Gilroy-Bold';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 900;
+                    letter-spacing: 0.07em;
+                    margin-top: 114px;
+                    @include size(73px,
+                    80px);
+                }
+                p {
+                    @include size(308px,
+                    75px);
+                }
+            }
+            .b-about-us {
+                display: none;
+                ul {
+                    list-style-type: none;
+                    margin-top: 154px;
+                    .list_2 {
+                        margin-top: 23px;
+                    }
+                    .list_3 {
+                        margin-top: 23px;
+                    }
+                }
+            }
+            .b-adress {
+                margin-top: 154px;
+                .adress-phone {
+                    margin-top: 46px;
+                }
+            }
+            .b-find-us {
+                top: 50%;
+                position: absolute;
+                width: 200px;
+                ul {
+                    // margin-top: 164px;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    height: 60px;
+                    li img {
+                        @include size(40px,
+                        40px);
+                    }
+                    .find-us-li-2 {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:426px) {
+    .b-header {
+        height: 600px;
+        .b-tlf-number {
+            display: none;
+        }
+        .b-submenu {
+            display: flex;
+            justify-content: space-between;
+            .b-logo-submenu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 73px;
+                height: 80px;
+                color: $color_yellow;
+                font-family: 'Gilroy-Bold';
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                margin-left: 20px;
+                letter-spacing: 0.07em;
+                margin-top: 1px;
+                @include size(73px,
+                80px);
+            }
+            .navigation {
+                display: none;
+            }
+            .b-btn-submenu {
+                height: 37px;
+                width: 180px;
+                border: 2px solid $color_yellow;
+                margin-right: 50px;
+                margin-top: 23px;
+                font-family: 'Gilroy-Bold';
+                font-size: 18px;
+                letter-spacing: -0.015em;
+                color: $color_yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .call {
+                display: block;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .menu-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .content {
+                width: 390px;
+                margin-top: 136px;
+                .menu-main-text {
+                    width: 300;
+                    font-family: 'Playfair Display';
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    color: #fff;
+                }
+                .menu-about {
+                    width: 350px;
+                    margin-top: 29px;
+                    font-family: 'Gilroy';
+                    font-size: 16px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    padding-left: 30px;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .b-menu-btn {
+                    @include size(175px,
+                    48px);
+                    margin-top: 60px;
+                    margin-left: 30px;
+                    background-color: $color_yellow;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+                    font-family: 'Gilroy-Bold';
+                    font-size: 16px;
+                    letter-spacing: -0.015em;
+                    cursor: pointer;
+                }
+            }
+        }
+        .info-about-work {
+            display: none;
+        }
+    }
+    .b-info {
+        height: 860px;
+        display: flex;
+        flex-direction: column-reverse;
+        .b-photo_1 {
+            height: 450px;
+            width: 100%;
+            background: url('../photos/info.png') no-repeat;
+            background-size: 100%;
+            position: relative;
+            .b-exp {
+                @include size(138px,
+                130px);
+                background-color: $color_yellow;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                .ten {
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    color: white;
+                    margin-left: 34px;
+                    margin-top: 0px;
+                    width: 65px;
+                    height: 70px;
+                    padding-bottom: 20px;
+                }
+                .experience {
+                    width: 113px;
+                    height: 84px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-left: 34px;
+                    color: white;
+                }
+            }
+        }
+        .b-who-we-are {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .b-who-we-are-2 {
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .about_us {
+                    color: $color_yellow;
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    font-weight: 400;
+                    letter-spacing: 9.699999809265137px;
+                }
+                .who-we-are {
+                    margin-top: 8px;
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                }
+                .text-info_1 {
+                    margin-top: 27px;
+                }
+                .text-info_1,
+                .text-info_2 {
+                    font-family: 'Gilroy';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    width: 400px;
+                    letter-spacing: 0.20000000298023224px;
+                    color: #7C7C7C;
+                }
+                .text-info_2 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .b-stats {
+        height: 800px;
+        background-color: black;
+        .b-parts-of-work {
+            display: flex;
+            flex-direction: column;
+            margin-left: 34px;
+            h4 {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                color: $color_yellow;
+                letter-spacing: 9.699999809265137px;
+                text-align: left;
+                padding-top: 62px;
+                text-transform: uppercase;
+            }
+            h2 {
+                color: white;
+                margin-top: 8px;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+            }
+            .parts {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 70px;
+                width: 100%;
+                height: 400px;
+                .circle-1 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-1:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "1";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p1 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(-30deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .line-1 {
+                    height: 2px;
+                    width: 70px;
+                    background-color: rgb(181, 172, 172);
+                    margin-top: 34px;
+                }
+                .circle-2 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-2:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "2";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p2 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(40deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-3 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                    margin-bottom: 30px;
+                }
+                .circle-3:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "3";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p3 {
+                    margin: 0;
+                    background-image: linear-gradient(90deg, rgb(181, 172, 172) 50%, transparent 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .line-1-del {
+                    display: none;
+                }
+                .circle-4 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-4:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "4";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p4 {
+                    margin: 0;
+                    background-image: linear-gradient(150deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-5 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                }
+                .circle-5:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "5";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p5 {
+                    margin: 0;
+                    background-image: linear-gradient(210deg, transparent 50%, $color_yellow 50%), linear-gradient(90deg, rgb(181, 172, 172) 50%, $color_yellow 50%);
+                }
+                .circle-6 {
+                    display: inline-block;
+                    margin: .5em;
+                    width: 66px;
+                    height: 66px;
+                    position: relative;
+                    border-radius: 50%;
+                    background-color: $color_yellow;
+                }
+                .circle-6:after {
+                    border-radius: 50%;
+                    display: block;
+                    content: "6";
+                    font-family: 'Playfair Display';
+                    font-size: 40px;
+                    font-weight: 400;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: center;
+                    background: black;
+                    position: absolute;
+                    color: white;
+                    top: .1em;
+                    left: .1em;
+                    height: 58px;
+                    width: 58px;
+                }
+                .p6 {
+                    margin: 0;
+                }
+            }
+            .b-text-we-do {
+                margin-top: 29.24px;
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                margin-right: 92px;
+                font-family: 'Gilroy';
+                font-size: 12px;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                color: #FFFFFF;
+                position: relative;
+                .paragraph-1 {
+                    @include size(100px,
+                    44px);
+                    position: absolute;
+                    bottom: 400%;
+                }
+                .paragraph-2 {
+                    @include size(120px,
+                    60px);
+                    position: absolute;
+                    bottom: 382%;
+                    left: 30%;
+                }
+                .paragraph-3 {
+                    @include size(100px,
+                    20px);
+                    position: absolute;
+                    bottom: 420%;
+                    left: 70%;
+                }
+                .paragraph-4 {
+                    @include size(100px,
+                    22px);
+                    position: absolute;
+                    bottom: 220%;
+                }
+                .paragraph-5 {
+                    @include size(100px,
+                    44px);
+                    position: absolute;
+                    bottom: 200%;
+                    left: 33%;
+                }
+                .paragraph-6 {
+                    @include size(107px,
+                    22px);
+                    position: absolute;
+                    bottom: 220%;
+                    left: 73%;
+                }
+            }
+        }
+    }
+    .b-slider {
+        width: 245.6px;
+    }
+    .b-jobs {
+        height: auto;
+        background-image: url("../photos/two-bedroom-x2--plan\ 1.png");
+        background-repeat: no-repeat;
+        background-size: 692px 606px;
+        background-position: 37% 120%;
+        .part {
+            font-family: 'Gilroy';
+            margin-top: 50px;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 9.699999809265137px;
+            text-align: center;
+            color: $color_yellow;
+        }
+        .our-jobs {
+            font-family: 'Playfair Display';
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.20000000298023224px;
+            text-align: center;
+        }
+        .b-info-and-work {
+            display: flex;
+            width: 60%;
+            flex-direction: column;
+            .b-info-about-job {
+                display: flex;
+                flex-direction: column;
+                margin-left: 40%;
+                width: 100%;
+                h5 {
+                    margin-top: 80px;
+                    width: 100%;
+                    font-family: 'Gilroy-Bold';
+                    font-size: 24px;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-left: 10%;
+                }
+                .text-about-job {
+                    margin-top: 20px;
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                }
+                .deadline {
+                    margin-top: 31px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    letter-spacing: 0.20000000298023224px;
+                    strong {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 18px;
+                        letter-spacing: 0.20000000298023224px;
+                    }
+                }
+                .square {
+                    margin-top: 12px;
+                    font-family: 'Gilroy';
+                    font-size: 20px;
+                    font-style: normal;
+                    letter-spacing: 0.20000000298023224px;
+                    strong {
+                        font-family: 'Gilroy-Bold';
+                        font-size: 18px;
+                        letter-spacing: 0.20000000298023224px;
+                    }
+                }
+            }
+            .photos-gallery {
+                width: 100%;
+                margin-top: 9px;
+            }
+            .photos {
+                height: 698px;
+                width: 100%;
+                margin-left: -10px;
+                display: flex;
+                margin-top: 28px;
+            }
+            .choose {
+                width: 0px;
+                height: 0px;
+                display: none;
+                .sz {
+                    @include size(0px,
+                    0px);
+                }
+                .photo-1 {
+                    display: none;
+                }
+                .photo-2 {
+                    display: none;
+                }
+                .photo-3 {
+                    display: none;
+                }
+            }
+            .main-photo {
+                width: 425.6px;
+                margin-left: 5px;
+                height: 604px;
+                .block {
+                    display: block;
+                    object-fit: cover;
+                    width: 425.6px;
+                    height: 100%;
+                    margin-left: 5px;
+                    margin-right: 0;
+                }
+                img {
+                    display: none;
+                }
+            }
+            .b-check-next {
+                @include size(425.6px,
+                92.5px);
+                background-color: $color_yellow;
+                margin-left: 10px;
+                display: flex;
+                position: relative;
+                margin-bottom: 0;
+                .points {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 40%;
+                    .active {
+                        margin-left: 20px;
+                        color: white;
+                        font-size: 25px;
+                    }
+                    .p {
+                        color: #555555;
+                        margin-left: 20px;
+                        font-size: 20px;
+                    }
+                }
+                .arrows {
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+                    font-size: 50px;
+                    position: absolute;
+                    justify-content: space-between;
+                    bottom: 400%;
+                    @include size(400px,
+                    50px);
+                    margin-right: 2%;
+                    .left-1 {
+                        cursor: pointer;
+                        -webkit-tap-highlight-color: transparent;
+                        border-radius: 50%;
+                        opacity: 0.5;
+                        background: rgb(208, 203, 203);
+                        @include size(50px,
+                        50px);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .right-1 {
+                        cursor: pointer;
+                        // padding-left: 10px;
+                        -webkit-tap-highlight-color: transparent;
+                        opacity: 0.5;
+                        background: rgb(208, 203, 203);
+                        border-radius: 50%;
+                        @include size(50px,
+                        50px);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .b-feedback {
+        height: auto;
+        width: 100%;
+        background: url("../photos/feedback.png");
+        display: flex;
+        justify-content: center;
+        .feedback-info {
+            height: 671px;
+            width: 0%;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h4 {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 9.699999809265137px;
+                text-align: center;
+                color: $color_yellow;
+                margin-top: 75px;
+            }
+            h2 {
+                margin-top: 8px;
+                width: 490px;
+                text-align: center;
+                font-family: 'Playfair Display';
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 400;
+                letter-spacing: 0.20000000298023224px;
+                color: white;
+            }
+            .text-feedback {
+                margin-top: 70px;
+                width: 400px;
+                text-align: center;
+                color: white;
+                font-family: 'Gilroy';
+                font-size: 14px;
+                font-style: normal;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+                position: relative;
+                &::after {
+                    content: "";
+                    display: none;
+                }
+            }
+            .author {
+                margin-top: 21px;
+                font-family: 'Gilroy-Bold';
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: -0.015em;
+                text-align: center;
+                color: white;
+                width: 200px;
+            }
+            .slice {
+                display: flex;
+                margin-top: 80px;
+                .arrow-left-2 {
+                    margin-right: 41px;
+                    width: 150px;
+                    list-style-type: none;
+                    li {
+                        color: #fff;
+                        font-size: 30px;
+                    }
+                }
+                .points-2 {
+                    display: flex;
+                    align-items: center;
+                    color: #9b9b9b;
+                    margin-left: 30px;
+                    .active-point-2 {
+                        font-size: 25px;
+                        color: $color_yellow;
+                        box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
+                    }
+                    .p-2-1 {
+                        font-size: 20px;
+                        margin-left: 23px;
+                    }
+                }
+            }
+            .arrow-right-2 {
+                margin-left: 20px;
+                display: none;
+            }
+            .arrow-left-2 {
+                display: none;
+            }
+        }
+    }
+    .b-contact {
+        background-color: $color_yellow;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 430px;
+        .b-contact-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-self: start;
+            .contact-text {
+                padding-top: 45px;
+                font-family: 'Playfair Display';
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                margin-left: 50px;
+                width: 425px;
+                padding-left: 10%;
+            }
+            .contact-info {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: normal;
+                font-weight: 400;
+                letter-spacing: 0.005em;
+                width: 400px;
+                margin-left: 8%;
+                text-align: center;
+            }
+            .contact-form {
+                width: 100%;
+                .b-user-contact {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 400px;
+                    margin-left: 0%;
+                    .inpt-name {
+                        margin-top: 65px;
+                        background-color: $color_yellow;
+                        border: none;
+                        outline: none;
+                        border-bottom: 0.5px solid #FFFFFF;
+                        @include size(35%,
+                        24px);
+                        &::placeholder {
+                            font-family: 'Gilroy';
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 500;
+                            letter-spacing: 0.07em;
+                            color: #FFFFFF;
+                            margin-bottom: 7px;
+                            // mix-blend-mode: 72%;
+                        }
+                    }
+                    .inpt-tel {
+                        margin-top: 65px;
+                        background-color: $color_yellow;
+                        border: none;
+                        border-bottom: 0.5px solid #FFFFFF;
+                        @include size(35%,
+                        24px);
+                        outline: none;
+                        &::placeholder {
+                            font-family: 'Gilroy';
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 500;
+                            letter-spacing: 0.07em;
+                            color: #FFFFFF;
+                            margin-bottom: 7px;
+                            // mix-blend-mode: 72%;
+                        }
+                    }
+                }
+            }
+        }
+        .inpt-text {
+            margin-top: 42px;
+            background-color: $color_yellow;
+            border: none;
+            border-bottom: 0.5px solid #FFFFFF;
+            @include size(67%,
+            24px);
+            margin-left: 17%;
+            outline: none;
+            &::placeholder {
+                font-family: 'Gilroy';
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                letter-spacing: 0.07em;
+                color: #FFFFFF;
+                margin-bottom: 7px;
+                // mix-blend-mode: 72%;
+            }
+        }
+        .btn-send {
+            margin-left: 16%;
+            width: 128px;
+            height: 42px;
+            margin-top: 42px;
+            background-color: #fff;
+            color: $color_yellow;
+            font-family: 'Gilroy';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .b-footer {
+        height: 400px;
+        background-color: $color_black;
+        color: white;
+        .b-footer-info {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            .b-logo {
+                div {
+                    color: $color_yellow;
+                    font-family: 'Gilroy-Bold';
+                    font-size: 28px;
+                    margin-top: 20px;
+                    margin-left: 35%;
+                }
+                p {
+                    @include size(308px,
+                    75px);
+                    margin-left: 6%;
+                }
+            }
+            .b-about-us {
+                display: none;
+                ul {
+                    list-style-type: none;
+                    margin-top: 154px;
+                    .list_2 {
+                        margin-top: 23px;
+                    }
+                    .list_3 {
+                        margin-top: 23px;
+                    }
+                }
+            }
+            .b-adress {
+                margin-top: 154px;
+                display: flex;
+                position: absolute;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                top: 30px;
+                width: 70%;
+                margin-left: 6%;
+                .adress-phone {
+                    margin-top: 20px;
+                    margin-left: 30%;
+                }
+            }
+            .b-find-us {
+                top: 70%;
+                position: absolute;
+                width: 200px;
+                ul {
+                    // margin-top: 164px;
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    height: 60px;
+                    li img {
+                        @include size(40px,
+                        40px);
+                    }
+                    .find-us-li-2 {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
