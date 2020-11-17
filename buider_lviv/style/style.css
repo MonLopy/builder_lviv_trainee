@@ -104,11 +104,11 @@
   letter-spacing: -0.015em;
 }
 
-.b-header .b-tlf-number .tlf-num-1 {
+.b-header .b-tlf-number .tlf-number-1 {
   margin-right: 47px;
 }
 
-.b-header .b-tlf-number .tlf-num-2 {
+.b-header .b-tlf-number .tlf-number-2 {
   margin-right: 105px;
 }
 
@@ -123,7 +123,7 @@
   width: 100px;
 }
 
-.b-header .b-tlf-number ul .icons-2 {
+.b-header .b-tlf-number ul .contects-icons-2 {
   margin-right: 22.53pxx;
 }
 
@@ -136,7 +136,7 @@
           justify-content: space-between;
 }
 
-.b-header .b-submenu .b-logo-submenu {
+.b-header .b-submenu .b-submenu-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +160,7 @@
   height: 80px;
 }
 
-.b-header .b-submenu .navigation {
+.b-header .b-submenu .submenu-navigation {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,12 +169,12 @@
   margin-top: 22px;
 }
 
-.b-header .b-submenu .navigation a {
+.b-header .b-submenu .submenu-navigation .submenu-navigation-link {
   text-decoration: none;
   color: #fff;
 }
 
-.b-header .b-submenu .navigation li {
+.b-header .b-submenu .submenu-navigation li {
   height: 37px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,29 +191,29 @@
   letter-spacing: 0.07em;
 }
 
-.b-header .b-submenu .navigation li:hover {
+.b-header .b-submenu .submenu-navigation li:hover {
   color: #FFB800;
   border-bottom: 3px solid #FFB800;
   cursor: pointer;
 }
 
-.b-header .b-submenu .navigation .navigator-menu-1 {
+.b-header .b-submenu .submenu-navigation .navigator-menu-1 {
   margin-right: 80px;
 }
 
-.b-header .b-submenu .navigation .navigator-menu-2 {
+.b-header .b-submenu .submenu-navigation .navigator-menu-2 {
   margin-right: 86px;
 }
 
-.b-header .b-submenu .navigation .navigator-menu-3 {
+.b-header .b-submenu .submenu-navigation .navigator-menu-3 {
   margin-right: 57px;
 }
 
-.b-header .b-submenu .navigation .navigator-menu-4 {
+.b-header .b-submenu .submenu-navigation .navigator-menu-4 {
   margin-right: 64px;
 }
 
-.b-header .b-submenu .b-btn-submenu {
+.b-header .b-submenu .b-btn-submenu-navigation-call {
   height: 37px;
   width: 180px;
   border: 2px solid #FFB800;
@@ -234,13 +234,13 @@
           align-items: center;
 }
 
-.b-header .b-submenu .call {
+.b-header .b-submenu .btn-submenu-navigation-call {
   display: block;
   cursor: pointer;
   text-decoration: none;
 }
 
-.b-header .menu-text {
+.b-header .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,15 +255,16 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
+  width: 1100px;
 }
 
-.b-header .menu-text .content {
+.b-header .content .content-menu-text {
   width: 860px;
   margin-top: 136px;
 }
 
-.b-header .menu-text .content .menu-main-text {
-  width: 860;
+.b-header .content .content-menu-text .content-menu-main-text {
+  width: 768px;
   font-family: 'Playfair Display';
   font-size: 40px;
   font-weight: 400;
@@ -273,7 +274,7 @@
   color: #fff;
 }
 
-.b-header .menu-text .content .menu-about {
+.b-header .content .content-menu-text .content-menu-about {
   width: 776px;
   margin-top: 29px;
   font-family: 'Gilroy';
@@ -283,7 +284,7 @@
   color: #fff;
 }
 
-.b-header .menu-text .content .b-menu-btn {
+.b-header .content .content-menu-text .btn-content-menu-text {
   width: 166px;
   height: 43px;
   margin-top: 60px;
@@ -306,7 +307,7 @@
   cursor: pointer;
 }
 
-.b-header .info-about-work {
+.b-header .b-info-about-work {
   margin-top: 285px;
   height: 169px;
   -webkit-backdrop-filter: blur(10px);
@@ -314,25 +315,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.b-header .info-about-work div {
+.b-header .b-info-about-work div {
   width: 156px;
   height: 89px;
 }
 
-.b-header .info-about-work .business {
+.b-header .b-info-about-work .b-info-about-work-business {
   background: url("../photos/business 1.png") no-repeat;
   background-position: center center;
   position: relative;
 }
 
-.b-header .info-about-work .business .text-in-business {
+.b-header .b-info-about-work .b-info-about-work-business .info-about-work-business-text-in-business {
   top: 25px;
   position: absolute;
   width: 136px;
@@ -341,13 +343,13 @@
   left: -10px;
 }
 
-.b-header .info-about-work .money {
+.b-header .b-info-about-work .b-info-about-work-money {
   background: url("../photos/money-bag 1.png") no-repeat;
   background-position: center center;
   position: relative;
 }
 
-.b-header .info-about-work .money .text-in-money {
+.b-header .b-info-about-work .b-info-about-work-money .info-about-work-money-text-in-money {
   position: absolute;
   width: 145px;
   height: 56px;
@@ -356,13 +358,13 @@
   top: 27px;
 }
 
-.b-header .info-about-work .document {
+.b-header .b-info-about-work .b-info-about-work-document {
   background: url("../photos/business-report 1.png") no-repeat;
   background-position: center center;
   position: relative;
 }
 
-.b-header .info-about-work .document .text-in-document {
+.b-header .b-info-about-work .b-info-about-work-document .info-about-work-document-text-in-document {
   top: 20px;
   left: -45px;
   position: absolute;
@@ -371,13 +373,13 @@
   color: #fff;
 }
 
-.b-header .info-about-work .time {
+.b-header .b-info-about-work .b-info-about-work-time {
   background: url("../photos/fast 2.png") no-repeat;
   background-position: center center;
   position: relative;
 }
 
-.b-header .info-about-work .time .text-in-time {
+.b-header .b-info-about-work .b-info-about-work-time .info-about-work-time-text-in-time {
   top: 20px;
   left: -30px;
   position: absolute;
@@ -386,14 +388,14 @@
   color: #fff;
 }
 
-.b-header .info-about-work .medal {
+.b-header .b-info-about-work .b-info-about-work-medal {
   background: url("../photos/guarantee 1.png") no-repeat;
   background-position: center center;
   height: 93px;
   position: relative;
 }
 
-.b-header .info-about-work .medal .text-in-medal {
+.b-header .b-info-about-work .b-info-about-work-medal .info-about-work-medal-text-in-medal {
   top: 20px;
   left: -5px;
   position: absolute;
@@ -409,14 +411,14 @@
   display: flex;
 }
 
-.b-info .b-photo_1 {
+.b-info .b-info-photo_1 {
   width: 555px;
   background: url("../photos/info.png");
   background-size: cover;
   position: relative;
 }
 
-.b-info .b-photo_1 .b-exp {
+.b-info .b-info-photo_1 .b-info-photo_1-experience {
   width: 238px;
   height: 220px;
   background-color: #FFB800;
@@ -425,7 +427,7 @@
   right: 0;
 }
 
-.b-info .b-photo_1 .b-exp .ten {
+.b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-years {
   font-family: 'Playfair Display';
   font-size: 70px;
   font-weight: 400;
@@ -437,7 +439,7 @@
   width: 150px;
 }
 
-.b-info .b-photo_1 .b-exp .experience {
+.b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-experience {
   width: 113px;
   height: 84px;
   font-family: 'Gilroy';
@@ -449,7 +451,7 @@
   color: white;
 }
 
-.b-info .b-who-we-are {
+.b-info .b-about-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,7 +468,7 @@
   background-position: 120% 330%;
 }
 
-.b-info .b-who-we-are .b-who-we-are-2 {
+.b-info .b-about-us .b-about-us-text {
   width: 542px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,7 +479,7 @@
           flex-direction: column;
 }
 
-.b-info .b-who-we-are .b-who-we-are-2 .about_us {
+.b-info .b-about-us .b-about-us-text .about-us-text-heading-text {
   color: #FFB800;
   font-family: 'Gilroy';
   font-size: 18px;
@@ -485,7 +487,7 @@
   letter-spacing: 9.699999809265137px;
 }
 
-.b-info .b-who-we-are .b-who-we-are-2 .who-we-are {
+.b-info .b-about-us .b-about-us-text .about-us-text-question {
   margin-top: 8px;
   font-family: 'Playfair Display';
   font-size: 40px;
@@ -495,12 +497,12 @@
   text-align: left;
 }
 
-.b-info .b-who-we-are .b-who-we-are-2 .text-info_1 {
+.b-info .b-about-us .b-about-us-text .about-us-text-text-1 {
   margin-top: 27px;
 }
 
-.b-info .b-who-we-are .b-who-we-are-2 .text-info_1,
-.b-info .b-who-we-are .b-who-we-are-2 .text-info_2 {
+.b-info .b-about-us .b-about-us-text .about-us-text-text-1,
+.b-info .b-about-us .b-about-us-text .about-us-text-text-2 {
   font-family: 'Gilroy';
   font-size: 18px;
   font-style: normal;
@@ -509,12 +511,12 @@
   color: #7C7C7C;
 }
 
-.b-stats {
+.b-statistic {
   height: 531px;
   background-color: black;
 }
 
-.b-stats .b-parts-of-work {
+.b-statistic .b-statistic-life-circle-of-our-job {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,10 +524,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 167px;
+  margin-left: 10vw;
 }
 
-.b-stats .b-parts-of-work h4 {
+.b-statistic .b-statistic-life-circle-of-our-job h4 {
   font-family: 'Gilroy';
   font-size: 18px;
   color: #FFB800;
@@ -535,7 +537,7 @@
   text-transform: uppercase;
 }
 
-.b-stats .b-parts-of-work h2 {
+.b-statistic .b-statistic-life-circle-of-our-job h2 {
   color: white;
   margin-top: 8px;
   font-family: 'Playfair Display';
@@ -545,14 +547,14 @@
   letter-spacing: 0.20000000298023224px;
 }
 
-.b-stats .b-parts-of-work .parts {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 97.5px;
 }
 
-.b-stats .b-parts-of-work .parts .circle-1 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -561,7 +563,7 @@
   border-radius: 50%;
 }
 
-.b-stats .b-parts-of-work .parts .circle-1:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1:after {
   border-radius: 50%;
   display: block;
   content: "1";
@@ -585,19 +587,19 @@
   width: 58px;
 }
 
-.b-stats .b-parts-of-work .parts .p1 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p1 {
   margin: 0;
   background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(-30deg, #b5acac 50%, #FFB800 50%);
 }
 
-.b-stats .b-parts-of-work .parts .line-1 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .line-1 {
   height: 2px;
   width: 128px;
   background-color: #b5acac;
   margin-top: 34px;
 }
 
-.b-stats .b-parts-of-work .parts .circle-2 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -606,7 +608,7 @@
   border-radius: 50%;
 }
 
-.b-stats .b-parts-of-work .parts .circle-2:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2:after {
   border-radius: 50%;
   display: block;
   content: "2";
@@ -629,12 +631,12 @@
   width: 58px;
 }
 
-.b-stats .b-parts-of-work .parts .p2 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p2 {
   margin: 0;
   background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(40deg, #b5acac 50%, #FFB800 50%);
 }
 
-.b-stats .b-parts-of-work .parts .circle-3 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -643,7 +645,7 @@
   border-radius: 50%;
 }
 
-.b-stats .b-parts-of-work .parts .circle-3:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3:after {
   border-radius: 50%;
   display: block;
   content: "3";
@@ -666,13 +668,13 @@
   width: 58px;
 }
 
-.b-stats .b-parts-of-work .parts .p3 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p3 {
   margin: 0;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, #FFB800));
   background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
 }
 
-.b-stats .b-parts-of-work .parts .circle-4 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -681,7 +683,7 @@
   border-radius: 50%;
 }
 
-.b-stats .b-parts-of-work .parts .circle-4:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4:after {
   border-radius: 50%;
   display: block;
   content: "4";
@@ -704,12 +706,12 @@
   width: 58px;
 }
 
-.b-stats .b-parts-of-work .parts .p4 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p4 {
   margin: 0;
   background-image: linear-gradient(150deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
 }
 
-.b-stats .b-parts-of-work .parts .circle-5 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -718,7 +720,7 @@
   border-radius: 50%;
 }
 
-.b-stats .b-parts-of-work .parts .circle-5:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5:after {
   border-radius: 50%;
   display: block;
   content: "5";
@@ -742,12 +744,12 @@
   width: 58px;
 }
 
-.b-stats .b-parts-of-work .parts .p5 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p5 {
   margin: 0;
   background-image: linear-gradient(210deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
 }
 
-.b-stats .b-parts-of-work .parts .circle-6 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6 {
   display: inline-block;
   margin: .5em;
   width: 66px;
@@ -757,7 +759,7 @@
   background-color: #FFB800;
 }
 
-.b-stats .b-parts-of-work .parts .circle-6:after {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6:after {
   border-radius: 50%;
   display: block;
   content: "6";
@@ -782,20 +784,20 @@
   margin-right: 2%;
 }
 
-.b-stats .b-parts-of-work .parts .p6 {
+.b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p6 {
   margin: 0;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job {
   margin-top: 29.24px;
   height: 100px;
+  width: 1120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 92px;
   font-family: 'Gilroy';
   font-size: 14px;
   font-style: normal;
@@ -804,46 +806,46 @@
   color: #FFFFFF;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-1 {
-  width: 155px;
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-1 {
+  width: 140px;
   height: 44px;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-2 {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-2 {
   width: 156px;
   height: 60px;
-  padding-left: 1px;
+  padding-right: 1px;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-3 {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-paragraph-3 {
   padding-left: 10px;
   width: 164px;
   height: 20px;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-4 {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-paragraph-4 {
   padding-left: 5px;
   width: 137px;
   height: 22px;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-5 {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-paragraph-5 {
   padding-left: 20px;
   width: 130px;
   height: 44px;
 }
 
-.b-stats .b-parts-of-work .b-text-we-do .paragraph-6 {
+.b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-paragraph-6 {
   margin-right: 92px;
   width: 137px;
   height: 22px;
 }
 
-.b-stats .b-parts-of-work .line-1 {
+.b-statistic .b-statistic-life-circle-of-our-job .line-1 {
   width: 100px;
 }
 
-.b-jobs {
+.b-our-jobs {
   height: auto;
   background-image: url("../photos/two-bedroom-x2--plan 1.png");
   background-repeat: no-repeat;
@@ -851,7 +853,7 @@
   background-position: 37% 120%;
 }
 
-.b-jobs .part {
+.b-our-jobs .our-jobs-portfolio {
   font-family: 'Gilroy';
   margin-top: 100px;
   font-size: 18px;
@@ -861,7 +863,7 @@
   color: #FFB800;
 }
 
-.b-jobs .our-jobs {
+.b-our-jobs .our-jobs-our-jobs {
   font-family: 'Playfair Display';
   font-size: 40px;
   font-style: normal;
@@ -870,7 +872,7 @@
   text-align: center;
 }
 
-.b-jobs .b-info-and-work {
+.b-our-jobs .b-info-and-work {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -880,7 +882,7 @@
           flex-direction: row;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job {
+.b-our-jobs .b-info-and-work .b-info-about-job {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -892,7 +894,7 @@
   margin-left: 100px;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job h5 {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-project-name {
   margin-top: 166px;
   font-family: 'Gilroy-Bold';
   font-size: 24px;
@@ -900,7 +902,7 @@
   text-align: left;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job .text-about-job {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-text-about-job {
   margin-top: 24px;
   font-family: 'Gilroy';
   font-size: 18px;
@@ -908,7 +910,7 @@
   text-align: left;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job .deadline {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline {
   margin-top: 31px;
   font-family: 'Gilroy';
   font-size: 20px;
@@ -916,13 +918,13 @@
   letter-spacing: 0.20000000298023224px;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job .deadline strong {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline strong {
   font-family: 'Gilroy-Bold';
   font-size: 18px;
   letter-spacing: 0.20000000298023224px;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job .square {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square {
   margin-top: 12px;
   font-family: 'Gilroy';
   font-size: 20px;
@@ -930,13 +932,13 @@
   letter-spacing: 0.20000000298023224px;
 }
 
-.b-jobs .b-info-and-work .b-info-about-job .square strong {
+.b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square strong {
   font-family: 'Gilroy-Bold';
   font-size: 18px;
   letter-spacing: 0.20000000298023224px;
 }
 
-.b-jobs .b-info-and-work .photos {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photos {
   height: 698px;
   width: 50%;
   margin-left: 80px;
@@ -946,52 +948,68 @@
   margin-top: 28px;
 }
 
-.b-jobs .b-info-and-work .choose {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose {
   width: 102px;
   height: 400px;
 }
 
-.b-jobs .b-info-and-work .choose .sz {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-mini {
   width: 102px;
   height: 105px;
 }
 
-.b-jobs .b-info-and-work .choose .photo-1 {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-1 {
   background: url("../photos/jobs1_mini_1.png");
   background-size: cover;
   margin-bottom: 5px;
 }
 
-.b-jobs .b-info-and-work .choose .photo-2 {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-2 {
   background: url("../photos/jobs1_mini_2.png");
   background-size: cover;
   margin-bottom: 5px;
 }
 
-.b-jobs .b-info-and-work .choose .photo-3 {
+.b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-3 {
   background: url("../photos/jobs1_mini_3.png");
   background-size: cover;
 }
 
-.b-jobs .b-info-and-work .main-photo {
+.b-our-jobs .b-info-and-work .b-slider-main-photo {
   width: 580px;
   margin-left: 5px;
   height: 604px;
 }
 
-.b-jobs .b-info-and-work .main-photo .block {
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
+.b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo1 {
+  background-image: url("../photos/jobs1.png");
+  background-size: cover;
+  width: 580px;
+  height: 604px;
 }
 
-.b-jobs .b-info-and-work .main-photo img {
-  display: none;
+.b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo2 {
+  background-image: url("../photos/jobs1_mini_1.svg");
+  background-size: cover;
+  width: 580px;
+  height: 604px;
 }
 
-.b-jobs .b-info-and-work .b-check-next {
+.b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo3 {
+  background-image: url("../photos/jobs1_mini_2.svg");
+  background-size: cover;
+  width: 580px;
+  height: 604px;
+}
+
+.b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo4 {
+  background-image: url("../photos/jobs1_mini_3.svg");
+  background-size: cover;
+  width: 580px;
+  height: 604px;
+}
+
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo {
   width: 580px;
   height: 92.5px;
   background-color: #FFB800;
@@ -1001,7 +1019,7 @@
   display: flex;
 }
 
-.b-jobs .b-info-and-work .b-check-next .points {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1011,21 +1029,22 @@
   margin-left: 99px;
 }
 
-.b-jobs .b-info-and-work .b-check-next .points .active {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points .points-active {
   margin-left: 20px;
   color: white;
   font-size: 25px;
 }
 
-.b-jobs .b-info-and-work .b-check-next .points .p {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points .points-simple-point {
   color: #555555;
   margin-left: 20px;
   font-size: 20px;
 }
 
-.b-jobs .b-info-and-work .b-check-next .arrows {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows {
   margin-left: 169px;
   color: #fff;
+  position: relative;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1036,15 +1055,19 @@
   font-size: 30px;
 }
 
-.b-jobs .b-info-and-work .b-check-next .arrows .left-1 {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows .arrows-left-1 {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  color: white;
+  position: absolute;
 }
 
-.b-jobs .b-info-and-work .b-check-next .arrows .right-1 {
+.b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows .arrows-right-1 {
   margin-left: 59px;
+  position: absolute;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  color: white;
 }
 
 .b-feedback {
@@ -1058,7 +1081,7 @@
           justify-content: center;
 }
 
-.b-feedback .feedback-info {
+.b-feedback .b-feedback-info {
   height: 671px;
   width: 766px;
   -webkit-backdrop-filter: blur(10px);
@@ -1075,7 +1098,7 @@
           align-items: center;
 }
 
-.b-feedback .feedback-info h4 {
+.b-feedback .b-feedback-info .feedback-info-feedback {
   font-family: 'Gilroy';
   font-size: 18px;
   font-style: normal;
@@ -1087,7 +1110,7 @@
   margin-top: 75px;
 }
 
-.b-feedback .feedback-info h2 {
+.b-feedback .b-feedback-info .feedback-info-clients-feedback {
   margin-top: 8px;
   width: 490px;
   text-align: center;
@@ -1099,7 +1122,7 @@
   color: white;
 }
 
-.b-feedback .feedback-info .text-feedback {
+.b-feedback .b-feedback-info .feedback-info-text-feedback {
   margin-top: 130px;
   width: 562px;
   text-align: center;
@@ -1112,7 +1135,7 @@
   position: relative;
 }
 
-.b-feedback .feedback-info .text-feedback::after {
+.b-feedback .b-feedback-info .feedback-info-text-feedback::after {
   content: "";
   position: absolute;
   font-size: 454px;
@@ -1121,7 +1144,7 @@
   opacity: 0.3;
 }
 
-.b-feedback .feedback-info .author {
+.b-feedback .b-feedback-info .feedback-info-author {
   margin-top: 21px;
   font-family: 'Gilroy-Bold';
   font-size: 20px;
@@ -1131,24 +1154,24 @@
   color: white;
 }
 
-.b-feedback .feedback-info .slice {
+.b-feedback .b-feedback-info .b-feedback-info-slice {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 80px;
 }
 
-.b-feedback .feedback-info .slice .arrow-left-2 {
+.b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 {
   margin-right: 41px;
   list-style-type: none;
 }
 
-.b-feedback .feedback-info .slice .arrow-left-2 li {
+.b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 li {
   color: #fff;
   font-size: 30px;
 }
 
-.b-feedback .feedback-info .slice .points-2 {
+.b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1158,24 +1181,24 @@
   color: #9b9b9b;
 }
 
-.b-feedback .feedback-info .slice .points-2 .active-point-2 {
+.b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-active-point-2 {
   font-size: 25px;
   color: #FFB800;
   -webkit-box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
           box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
 }
 
-.b-feedback .feedback-info .slice .points-2 .p-2-1 {
+.b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-simple-point {
   font-size: 20px;
   margin-left: 23px;
 }
 
-.b-feedback .feedback-info .arrow-right-2 {
+.b-feedback .b-feedback-info .slice-arrow-right-2 {
   margin-left: 20px;
   list-style-type: none;
 }
 
-.b-feedback .feedback-info .arrow-right-2 li {
+.b-feedback .b-feedback-info .slice-arrow-right-2 li {
   color: #FFB800;
   font-size: 30px;
 }
@@ -1210,7 +1233,7 @@
       align-self: start;
 }
 
-.b-contact .b-contact-info .contact-text {
+.b-contact .b-contact-info .contact-info-text {
   padding-top: 45px;
   font-family: 'Playfair Display';
   font-size: 30px;
@@ -1218,7 +1241,7 @@
   font-weight: 700;
 }
 
-.b-contact .b-contact-info .contact-info {
+.b-contact .b-contact-info .contact-info-information {
   font-family: 'Gilroy';
   font-size: 18px;
   font-style: normal;
@@ -1227,7 +1250,7 @@
   letter-spacing: 0.005em;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1237,7 +1260,7 @@
   width: 700px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-name {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name {
   margin-top: 65px;
   background-color: #FFB800;
   border: none;
@@ -1247,7 +1270,7 @@
   height: 24px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-webkit-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-webkit-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1257,7 +1280,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-name:-ms-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name:-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1267,7 +1290,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-ms-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1277,7 +1300,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1287,7 +1310,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel {
   margin-top: 65px;
   background-color: #FFB800;
   border: none;
@@ -1297,7 +1320,7 @@
   outline: none;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-webkit-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-webkit-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1307,7 +1330,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel:-ms-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel:-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1317,7 +1340,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-ms-input-placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1327,7 +1350,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::placeholder {
+.b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1337,7 +1360,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .inpt-text {
+.b-contact .inpt-user-contact-text {
   margin-top: 42px;
   background-color: #FFB800;
   border: none;
@@ -1347,7 +1370,7 @@
   outline: none;
 }
 
-.b-contact .inpt-text::-webkit-input-placeholder {
+.b-contact .inpt-user-contact-text::-webkit-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1357,7 +1380,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .inpt-text:-ms-input-placeholder {
+.b-contact .inpt-user-contact-text:-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1367,7 +1390,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .inpt-text::-ms-input-placeholder {
+.b-contact .inpt-user-contact-text::-ms-input-placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1377,7 +1400,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .inpt-text::placeholder {
+.b-contact .inpt-user-contact-text::placeholder {
   font-family: 'Gilroy';
   font-size: 16px;
   font-style: normal;
@@ -1387,7 +1410,7 @@
   margin-bottom: 7px;
 }
 
-.b-contact .btn-send {
+.b-contact .b-btn-send-user-contact {
   width: 128px;
   height: 42px;
   margin-top: 42px;
@@ -1423,7 +1446,7 @@
       justify-content: space-around;
 }
 
-.b-footer .b-footer-info .b-logo div {
+.b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-logo {
   color: #FFB800;
   font-family: 'Gilroy-Bold';
   font-size: 24px;
@@ -1435,49 +1458,62 @@
   height: 80px;
 }
 
-.b-footer .b-footer-info .b-logo p {
+.b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-text {
   width: 308px;
   height: 75px;
 }
 
-.b-footer .b-footer-info .b-about-us ul {
+.b-footer .b-footer-info .b-footer-info-about-us ul {
   list-style-type: none;
   margin-top: 154px;
 }
 
-.b-footer .b-footer-info .b-about-us ul .list_2 {
+.b-footer .b-footer-info .b-footer-info-about-us ul .b-footer-info-about-us-portfolio {
   margin-top: 23px;
 }
 
-.b-footer .b-footer-info .b-about-us ul .list_3 {
+.b-footer .b-footer-info .b-footer-info-about-us ul .b-footer-info-about-us-job-stage {
   margin-top: 23px;
 }
 
-.b-footer .b-footer-info .b-adress {
+.b-footer .b-footer-info .b-footer-info-adress {
   margin-top: 154px;
 }
 
-.b-footer .b-footer-info .b-adress .adress-phone {
+.b-footer .b-footer-info .b-footer-info-adress .footer-info-adress-adress-phone {
   margin-top: 46px;
 }
 
-.b-footer .b-footer-info .b-find-us ul {
+.b-footer .b-footer-info .b-footer-info-find-us ul {
   margin-top: 164px;
   list-style-type: none;
 }
 
-.b-footer .b-footer-info .b-find-us ul li img {
+.b-footer .b-footer-info .b-footer-info-find-us ul li img {
   width: 18.76px;
   height: 18.76px;
 }
 
-.b-footer .b-footer-info .b-find-us ul .find-us-li-2 {
+.b-footer .b-footer-info .b-footer-info-find-us ul .b-footer-info-find-us-social-network {
   margin-top: 21.24px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1275px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .b-header {
     height: 700px;
+    width: 100%;
   }
   .b-header .b-tlf-number {
     display: none;
@@ -1513,10 +1549,10 @@
     width: 73px;
     height: 80px;
   }
-  .b-header .b-submenu .navigation {
+  .b-header .b-submenu .submenu-navigation {
     display: none;
   }
-  .b-header .b-submenu .b-btn-submenu {
+  .b-header .b-submenu .b-btn-submenu-navigation-call {
     height: 37px;
     width: 180px;
     border: 2px solid #FFB800;
@@ -1536,12 +1572,16 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-header .b-submenu .call {
+  .b-header .b-submenu .btn-submenu-navigation-call {
     display: block;
     cursor: pointer;
     text-decoration: none;
   }
-  .b-header .menu-text {
+  .b-header .content {
+    width: 390px;
+    margin-top: 0;
+  }
+  .b-header .content .content-menu-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1555,13 +1595,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 700px;
   }
-  .b-header .menu-text .content {
-    width: 390px;
-    margin-top: 136px;
-  }
-  .b-header .menu-text .content .menu-main-text {
-    width: 300;
+  .b-header .content .content-menu-text .content-menu-main-text {
+    width: 425px;
     font-family: 'Playfair Display';
     font-size: 23px;
     font-weight: 400;
@@ -1570,8 +1607,8 @@
     padding-left: 30px;
     color: #fff;
   }
-  .b-header .menu-text .content .menu-about {
-    width: 300px;
+  .b-header .content .content-menu-text .content-menu-about {
+    width: 600px;
     margin-top: 29px;
     font-family: 'Gilroy';
     font-size: 18px;
@@ -1580,7 +1617,7 @@
     color: #fff;
     margin-right: 0px;
   }
-  .b-header .menu-text .content .b-menu-btn {
+  .b-header .content .content-menu-text .btn-content-menu-text {
     width: 175px;
     height: 48px;
     margin-top: 60px;
@@ -1602,20 +1639,20 @@
     letter-spacing: -0.015em;
     cursor: pointer;
   }
-  .b-header .info-about-work {
+  .b-header .b-info-about-work {
     display: none;
   }
-  .b-header .info-about-work div {
+  .b-header .b-info-about-work div {
     width: 100px;
     height: 95px;
   }
-  .b-header .info-about-work .business {
+  .b-header .b-info-about-work .b-info-about-work-business {
     background: url("../photos/business 1.png") no-repeat;
     background-position: 100% 100%;
     background-size: cover;
     position: relative;
   }
-  .b-header .info-about-work .business .text-in-business {
+  .b-header .b-info-about-work .b-info-about-work-business .info-about-work-business-text-in-business {
     top: 25px;
     position: absolute;
     width: 136px;
@@ -1623,12 +1660,12 @@
     color: #fff;
     left: -10px;
   }
-  .b-header .info-about-work .money {
+  .b-header .b-info-about-work .b-info-about-work-money {
     background: url("../photos/money-bag 1.png") no-repeat;
     background-position: center center;
     position: relative;
   }
-  .b-header .info-about-work .money .text-in-money {
+  .b-header .b-info-about-work .b-info-about-work-money .info-about-work-money-text-in-money {
     position: absolute;
     width: 145px;
     height: 56px;
@@ -1636,12 +1673,12 @@
     left: -20px;
     top: 27px;
   }
-  .b-header .info-about-work .document {
+  .b-header .b-info-about-work .b-info-about-work-document {
     background: url("../photos/business-report 1.png") no-repeat;
     background-position: center center;
     position: relative;
   }
-  .b-header .info-about-work .document .text-in-document {
+  .b-header .b-info-about-work .b-info-about-work-document .info-about-work-document-text-in-document {
     top: 20px;
     left: -45px;
     position: absolute;
@@ -1649,12 +1686,12 @@
     height: 100px;
     color: #fff;
   }
-  .b-header .info-about-work .time {
+  .b-header .b-info-about-work .b-info-about-work-time {
     background: url("../photos/fast 2.png") no-repeat;
     background-position: center center;
     position: relative;
   }
-  .b-header .info-about-work .time .text-in-time {
+  .b-header .b-info-about-work .b-info-about-work-time .info-about-work-time-text-in-time {
     top: 20px;
     left: -30px;
     position: absolute;
@@ -1662,13 +1699,13 @@
     height: 80px;
     color: #fff;
   }
-  .b-header .info-about-work .medal {
+  .b-header .b-info-about-work .b-info-about-work-medal {
     background: url("../photos/guarantee 1.png") no-repeat;
     background-position: center center;
     height: 93px;
     position: relative;
   }
-  .b-header .info-about-work .medal .text-in-medal {
+  .b-header .b-info-about-work .b-info-about-work-medal .info-about-work-medal-text-in-medal {
     top: 20px;
     left: -5px;
     position: absolute;
@@ -1681,14 +1718,15 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 768px;
   }
-  .b-info .b-photo_1 {
+  .b-info .b-info-photo_1 {
     width: 40%;
     background: url("../photos/info.png") no-repeat;
     position: relative;
     margin-right: 20px;
   }
-  .b-info .b-photo_1 .b-exp {
+  .b-info .b-info-photo_1 .b-info-photo_1-experience {
     width: 138px;
     height: 130px;
     background-color: #FFB800;
@@ -1696,7 +1734,7 @@
     bottom: 0;
     right: 0;
   }
-  .b-info .b-photo_1 .b-exp .ten {
+  .b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-years {
     font-family: 'Playfair Display';
     font-size: 40px;
     font-weight: 400;
@@ -1708,7 +1746,7 @@
     height: 70px;
     padding-bottom: 20px;
   }
-  .b-info .b-photo_1 .b-exp .experience {
+  .b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-experience {
     width: 113px;
     height: 84px;
     font-family: 'Gilroy';
@@ -1719,7 +1757,7 @@
     margin-left: 34px;
     color: white;
   }
-  .b-info .b-who-we-are {
+  .b-info .b-about-us {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1735,7 +1773,7 @@
     background-size: 692px 606px;
     background-position: 120% 330%;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 {
+  .b-info .b-about-us .b-about-us-text {
     width: 438px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1748,14 +1786,14 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .about_us {
+  .b-info .b-about-us .b-about-us-text .about-us-text-heading-text {
     color: #FFB800;
     font-family: 'Gilroy';
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 9.699999809265137px;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .who-we-are {
+  .b-info .b-about-us .b-about-us-text .about-us-text-question {
     margin-top: 8px;
     font-family: 'Playfair Display';
     font-size: 40px;
@@ -1764,11 +1802,11 @@
     letter-spacing: 0.20000000298023224px;
     text-align: left;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_1 {
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-1 {
     margin-top: 27px;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_1,
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_2 {
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-1,
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-2 {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -1777,11 +1815,12 @@
     letter-spacing: 0.20000000298023224px;
     color: #7C7C7C;
   }
-  .b-stats {
+  .b-statistic {
     height: 531px;
+    width: 768px;
     background-color: black;
   }
-  .b-stats .b-parts-of-work {
+  .b-statistic .b-statistic-life-circle-of-our-job {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1791,7 +1830,7 @@
             flex-direction: column;
     margin-left: 34px;
   }
-  .b-stats .b-parts-of-work h4 {
+  .b-statistic .b-statistic-life-circle-of-our-job h4 {
     font-family: 'Gilroy';
     font-size: 18px;
     color: #FFB800;
@@ -1800,23 +1839,24 @@
     padding-top: 62px;
     text-transform: uppercase;
   }
-  .b-stats .b-parts-of-work h2 {
+  .b-statistic .b-statistic-life-circle-of-our-job h2 {
     color: white;
     margin-top: 8px;
     font-family: 'Playfair Display';
     font-size: 40px;
+    width: 358px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-stats .b-parts-of-work .parts {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 97.5px;
     width: 700px;
   }
-  .b-stats .b-parts-of-work .parts .circle-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -1824,7 +1864,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-1:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1:after {
     border-radius: 50%;
     display: block;
     content: "1";
@@ -1847,17 +1887,17 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p1 {
     margin: 0;
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(-30deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .line-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .line-1 {
     height: 2px;
     width: 60px;
     background-color: #b5acac;
     margin-top: 34px;
   }
-  .b-stats .b-parts-of-work .parts .circle-2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -1865,7 +1905,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-2:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2:after {
     border-radius: 50%;
     display: block;
     content: "2";
@@ -1887,11 +1927,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p2 {
     margin: 0;
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(40deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -1899,7 +1939,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-3:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3:after {
     border-radius: 50%;
     display: block;
     content: "3";
@@ -1921,12 +1961,12 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p3 {
     margin: 0;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, #FFB800));
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -1934,7 +1974,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-4:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4:after {
     border-radius: 50%;
     display: block;
     content: "4";
@@ -1956,11 +1996,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p4 {
     margin: 0;
     background-image: linear-gradient(150deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -1968,7 +2008,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-5:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5:after {
     border-radius: 50%;
     display: block;
     content: "5";
@@ -1991,11 +2031,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p5 {
     margin: 0;
     background-image: linear-gradient(210deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -2004,7 +2044,7 @@
     border-radius: 50%;
     background-color: #FFB800;
   }
-  .b-stats .b-parts-of-work .parts .circle-6:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6:after {
     border-radius: 50%;
     display: block;
     content: "6";
@@ -2027,10 +2067,10 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p6 {
     margin: 0;
   }
-  .b-stats .b-parts-of-work .b-text-we-do {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job {
     margin-top: 29.24px;
     width: 700px;
     height: 100px;
@@ -2040,48 +2080,48 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-right: 92px;
     font-family: 'Gilroy';
     font-size: 14px;
     font-weight: 400;
+    margin-right: 0;
     letter-spacing: 0.20000000298023224px;
     color: #FFFFFF;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-1 {
     width: 155px;
     height: 44px;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-2 {
     width: 156px;
     height: 60px;
     padding-left: 20px;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-3 {
     width: 164px;
     height: 20px;
     padding-left: 0px;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-4 {
     width: 137px;
     height: 22px;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-5 {
     width: 130px;
     height: 44px;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-6 {
     margin-right: 0px;
     width: 107px;
     height: 22px;
   }
-  .b-jobs {
-    height: 800px;
-    background-image: url("../photos/two-bedroom-x2--plan 1.png");
+  .b-our-jobs {
+    width: 768px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: 692px 606px;
     background-position: 37% 120%;
   }
-  .b-jobs .part {
+  .b-our-jobs .our-jobs-portfolio {
     font-family: 'Gilroy';
     margin-top: 50px;
     font-size: 16px;
@@ -2090,7 +2130,7 @@
     text-align: center;
     color: #FFB800;
   }
-  .b-jobs .our-jobs {
+  .b-our-jobs .our-jobs-our-jobs {
     font-family: 'Playfair Display';
     font-size: 36px;
     font-style: normal;
@@ -2098,7 +2138,7 @@
     letter-spacing: 0.20000000298023224px;
     text-align: center;
   }
-  .b-jobs .b-info-and-work {
+  .b-our-jobs .b-info-and-work {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2108,7 +2148,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .b-jobs .b-info-and-work .b-info-about-job {
+  .b-our-jobs .b-info-and-work .b-info-about-job {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2119,49 +2159,49 @@
     margin-left: 50px;
     width: 300px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job h5 {
-    margin-top: 166px;
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-project-name {
+    margin-top: 106px;
     font-family: 'Gilroy-Bold';
     font-size: 24px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .text-about-job {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-text-about-job {
     margin-top: 20px;
     font-family: 'Gilroy';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .deadline {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline {
     margin-top: 31px;
     font-family: 'Gilroy';
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .deadline strong {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline strong {
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .square {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square {
     margin-top: 12px;
     font-family: 'Gilroy';
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .square strong {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square strong {
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .photos-gallery {
+  .b-our-jobs .b-info-and-work .b-photos-gallery {
     width: 40%;
     margin-top: 9px;
   }
-  .b-jobs .b-info-and-work .photos {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photos {
     height: 698px;
     width: 451px;
     margin-left: 40px;
@@ -2170,51 +2210,49 @@
     display: flex;
     margin-top: 28px;
   }
-  .b-jobs .b-info-and-work .choose {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose {
     width: 0px;
     height: 0px;
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .sz {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-mini {
     width: 0px;
     height: 0px;
   }
-  .b-jobs .b-info-and-work .choose .photo-1 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-1 {
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .photo-2 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-2 {
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .photo-3 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-3 {
     display: none;
   }
-  .b-jobs .b-info-and-work .main-photo {
+  .b-our-jobs .b-info-and-work .b-slider-main-photo {
     width: 446px;
     margin-left: 5px;
     height: 604px;
   }
-  .b-jobs .b-info-and-work .main-photo .block {
-    display: block;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  .b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo1 {
+    width: 446pxpx;
+    height: 604px;
   }
-  .b-jobs .b-info-and-work .main-photo img {
+  .b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo2 {
+    width: 446pxpx;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo3 {
+    width: 446px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider-main-photo .b-slider-main-photo-photo4 {
+    width: 446px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo {
     display: none;
   }
-  .b-jobs .b-info-and-work .b-check-next {
-    width: 98.8%;
-    height: 92.5px;
-    background-color: #FFB800;
-    margin-left: 5px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-  }
-  .b-jobs .b-info-and-work .b-check-next .points {
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2223,35 +2261,20 @@
             align-items: center;
     margin-left: 40%;
   }
-  .b-jobs .b-info-and-work .b-check-next .points .active {
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points .points-active {
     margin-left: 20px;
     color: white;
     font-size: 25px;
   }
-  .b-jobs .b-info-and-work .b-check-next .points .p {
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-points .points-simple-point {
     color: #555555;
     margin-left: 20px;
     font-size: 20px;
   }
-  .b-jobs .b-info-and-work .b-check-next .arrows {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 50px;
-    position: absolute;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    bottom: 400%;
-    width: 400px;
-    height: 50px;
-    right: 2%;
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows {
+    display: none;
   }
-  .b-jobs .b-info-and-work .b-check-next .arrows .left-1 {
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows .arrows-left-1 {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     border-radius: 50%;
@@ -2269,7 +2292,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-jobs .b-info-and-work .b-check-next .arrows .right-1 {
+  .b-our-jobs .b-info-and-work .b-slide-choose-next-photo .slide-choose-next-photo-arrows .arrows-right-1 {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     opacity: 0.5;
@@ -2288,6 +2311,7 @@
             align-items: center;
   }
   .b-feedback {
+    width: 768px;
     height: 671px;
     background: url("../photos/feedback.png");
     display: -webkit-box;
@@ -2297,9 +2321,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .b-feedback .feedback-info {
+  .b-feedback .b-feedback-info {
     height: 671px;
-    width: 766px;
+    width: 768px;
     -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
     display: -webkit-box;
@@ -2313,7 +2337,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-feedback .feedback-info h4 {
+  .b-feedback .b-feedback-info .feedback-info-feedback {
     font-family: 'Gilroy';
     font-size: 18px;
     font-style: normal;
@@ -2324,7 +2348,7 @@
     color: #FFB800;
     margin-top: 75px;
   }
-  .b-feedback .feedback-info h2 {
+  .b-feedback .b-feedback-info .feedback-info-clients-feedback {
     margin-top: 8px;
     width: 490px;
     text-align: center;
@@ -2335,7 +2359,7 @@
     letter-spacing: 0.20000000298023224px;
     color: white;
   }
-  .b-feedback .feedback-info .text-feedback {
+  .b-feedback .b-feedback-info .feedback-info-text-feedback {
     margin-top: 130px;
     width: 562px;
     text-align: center;
@@ -2347,7 +2371,7 @@
     letter-spacing: 0.01em;
     position: relative;
   }
-  .b-feedback .feedback-info .text-feedback::after {
+  .b-feedback .b-feedback-info .feedback-info-text-feedback::after {
     content: "„";
     position: absolute;
     font-size: 454px;
@@ -2355,7 +2379,7 @@
     color: #555555;
     opacity: 0.3;
   }
-  .b-feedback .feedback-info .author {
+  .b-feedback .b-feedback-info .feedback-info-author {
     margin-top: 21px;
     font-family: 'Gilroy-Bold';
     font-size: 20px;
@@ -2364,21 +2388,21 @@
     text-align: center;
     color: white;
   }
-  .b-feedback .feedback-info .slice {
+  .b-feedback .b-feedback-info .b-feedback-info-slice {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 80px;
   }
-  .b-feedback .feedback-info .slice .arrow-left-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 {
     margin-right: 41px;
     list-style-type: none;
   }
-  .b-feedback .feedback-info .slice .arrow-left-2 li {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 li {
     color: #fff;
     font-size: 30px;
   }
-  .b-feedback .feedback-info .slice .points-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2387,28 +2411,29 @@
             align-items: center;
     color: #9b9b9b;
   }
-  .b-feedback .feedback-info .slice .points-2 .active-point-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-active-point-2 {
     font-size: 25px;
     color: #FFB800;
     -webkit-box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
             box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
   }
-  .b-feedback .feedback-info .slice .points-2 .p-2-1 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-simple-point {
     font-size: 20px;
     margin-left: 23px;
   }
-  .b-feedback .feedback-info .arrow-right-2 {
+  .b-feedback .b-feedback-info .slice-arrow-right-2 {
     margin-left: 20px;
     display: none;
   }
-  .b-feedback .feedback-info .arrow-right-2 li {
+  .b-feedback .b-feedback-info .slice-arrow-right-2 li {
     color: #FFB800;
     font-size: 30px;
   }
-  .b-feedback .feedback-info .arrow-left-2 {
+  .b-feedback .b-feedback-info .slice-arrow-left-2 {
     display: none;
   }
   .b-contact {
+    width: 768px;
     background-color: #FFB800;
     color: white;
     display: -webkit-box;
@@ -2420,7 +2445,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 403px;
     height: 445px;
   }
   .b-contact .b-contact-info {
@@ -2437,7 +2461,7 @@
     -ms-flex-item-align: start;
         align-self: start;
   }
-  .b-contact .b-contact-info .contact-text {
+  .b-contact .b-contact-info .contact-info-text {
     padding-top: 45px;
     font-family: 'Playfair Display';
     font-size: 30px;
@@ -2445,7 +2469,7 @@
     font-weight: 700;
     margin-left: 20%;
   }
-  .b-contact .b-contact-info .contact-info {
+  .b-contact .b-contact-info .contact-info-information {
     font-family: 'Gilroy';
     font-size: 18px;
     font-style: normal;
@@ -2456,7 +2480,7 @@
     width: 420px;
     height: 80px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2465,7 +2489,7 @@
             justify-content: start;
     width: 700px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name {
     margin-top: 65px;
     background-color: #FFB800;
     border: none;
@@ -2475,7 +2499,7 @@
     height: 24px;
     margin-left: 20%;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-webkit-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2484,7 +2508,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name:-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2493,7 +2517,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2502,7 +2526,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2511,7 +2535,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel {
     margin-top: 65px;
     background-color: #FFB800;
     border: none;
@@ -2521,7 +2545,7 @@
     margin-left: 10%;
     outline: none;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-webkit-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2530,7 +2554,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel:-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2539,7 +2563,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2548,7 +2572,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2557,7 +2581,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text {
+  .b-contact .inpt-user-contact-text {
     margin-top: 42px;
     background-color: #FFB800;
     border: none;
@@ -2567,7 +2591,7 @@
     height: 24px;
     outline: none;
   }
-  .b-contact .inpt-text::-webkit-input-placeholder {
+  .b-contact .inpt-user-contact-text::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2576,7 +2600,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text:-ms-input-placeholder {
+  .b-contact .inpt-user-contact-text:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2585,7 +2609,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text::-ms-input-placeholder {
+  .b-contact .inpt-user-contact-text::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2594,7 +2618,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text::placeholder {
+  .b-contact .inpt-user-contact-text::placeholder {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2603,7 +2627,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .btn-send {
+  .b-contact .b-btn-send-user-contact {
     width: 128px;
     height: 42px;
     margin-top: 42px;
@@ -2626,6 +2650,7 @@
     cursor: pointer;
   }
   .b-footer {
+    width: 768px;
     height: 453px;
     background-color: #000000;
     color: white;
@@ -2638,7 +2663,7 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .b-footer .b-footer-info .b-logo div {
+  .b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-logo {
     color: #FFB800;
     font-family: 'Gilroy-Bold';
     font-size: 24px;
@@ -2649,35 +2674,35 @@
     width: 73px;
     height: 80px;
   }
-  .b-footer .b-footer-info .b-logo p {
+  .b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-text {
     width: 308px;
     height: 75px;
   }
-  .b-footer .b-footer-info .b-about-us {
+  .b-footer .b-footer-info .b-footer-info-about-us {
     display: none;
   }
-  .b-footer .b-footer-info .b-about-us ul {
+  .b-footer .b-footer-info .b-footer-info-about-us ul {
     list-style-type: none;
     margin-top: 154px;
   }
-  .b-footer .b-footer-info .b-about-us ul .list_2 {
+  .b-footer .b-footer-info .b-footer-info-about-us ul .b-footer-info-about-us-portfolio {
     margin-top: 23px;
   }
-  .b-footer .b-footer-info .b-about-us ul .list_3 {
+  .b-footer .b-footer-info .b-footer-info-about-us ul .lb-footer-info-about-us-job-stage {
     margin-top: 23px;
   }
-  .b-footer .b-footer-info .b-adress {
+  .b-footer .b-footer-info .b-footer-info-adress {
     margin-top: 154px;
   }
-  .b-footer .b-footer-info .b-adress .adress-phone {
+  .b-footer .b-footer-info .b-footer-info-adress .footer-info-adress-adress-phone {
     margin-top: 46px;
   }
-  .b-footer .b-footer-info .b-find-us {
+  .b-footer .b-footer-info .b-footer-info-find-us {
     top: 50%;
     position: absolute;
     width: 200px;
   }
-  .b-footer .b-footer-info .b-find-us ul {
+  .b-footer .b-footer-info .b-footer-info-find-us ul {
     list-style-type: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2691,18 +2716,22 @@
             justify-content: space-between;
     height: 60px;
   }
-  .b-footer .b-footer-info .b-find-us ul li img {
+  .b-footer .b-footer-info .b-footer-info-find-us ul li img {
     width: 40px;
     height: 40px;
   }
-  .b-footer .b-footer-info .b-find-us ul .find-us-li-2 {
+  .b-footer .b-footer-info .b-footer-info-find-us ul .find-us-li-2 {
     margin-top: 0;
   }
 }
 
-@media all and (max-width: 426px) {
+@media all and (max-width: 790px) {
+  .container {
+    width: 425px;
+    margin: 0 auto;
+  }
   .b-header {
-    height: 600px;
+    height: 600;
   }
   .b-header .b-tlf-number {
     display: none;
@@ -2715,7 +2744,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .b-header .b-submenu .b-logo-submenu {
+  .b-header .b-submenu .b-submenu-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2738,10 +2767,10 @@
     width: 73px;
     height: 80px;
   }
-  .b-header .b-submenu .navigation {
+  .b-header .b-submenu .submenu-navigation {
     display: none;
   }
-  .b-header .b-submenu .b-btn-submenu {
+  .b-header .b-submenu .b-btn-submenu-navigation-call {
     height: 37px;
     width: 180px;
     border: 2px solid #FFB800;
@@ -2761,12 +2790,16 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-header .b-submenu .call {
+  .b-header .b-submenu .btn-submenu-navigation-call {
     display: block;
     cursor: pointer;
     text-decoration: none;
   }
-  .b-header .menu-text {
+  .b-header .content {
+    width: 400px;
+    margin-top: 0;
+  }
+  .b-header .content .content-menu-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2780,23 +2813,21 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 425px;
   }
-  .b-header .menu-text .content {
+  .b-header .content .content-menu-text .content-menu-main-text {
     width: 390px;
-    margin-top: 136px;
-  }
-  .b-header .menu-text .content .menu-main-text {
-    width: 300;
+    height: 30px;
+    text-align: center;
     font-family: 'Playfair Display';
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.20000000298023224px;
-    text-align: center;
     color: #fff;
   }
-  .b-header .menu-text .content .menu-about {
-    width: 350px;
+  .b-header .content .content-menu-text .content-menu-about {
+    width: 390px;
     margin-top: 29px;
     font-family: 'Gilroy';
     font-size: 16px;
@@ -2814,7 +2845,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-header .menu-text .content .b-menu-btn {
+  .b-header .content .content-menu-text .btn-content-menu-text {
     width: 175px;
     height: 48px;
     margin-top: 60px;
@@ -2837,10 +2868,11 @@
     letter-spacing: -0.015em;
     cursor: pointer;
   }
-  .b-header .info-about-work {
+  .b-header .b-info-about-work {
     display: none;
   }
   .b-info {
+    width: 425px;
     height: 860px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2850,14 +2882,14 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .b-info .b-photo_1 {
+  .b-info .b-info-photo_1 {
     height: 450px;
     width: 100%;
     background: url("../photos/info.png") no-repeat;
     background-size: 100%;
     position: relative;
   }
-  .b-info .b-photo_1 .b-exp {
+  .b-info .b-info-photo_1 .b-info-photo_1-experience {
     width: 138px;
     height: 130px;
     background-color: #FFB800;
@@ -2865,7 +2897,7 @@
     bottom: 0;
     right: 0;
   }
-  .b-info .b-photo_1 .b-exp .ten {
+  .b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-years {
     font-family: 'Playfair Display';
     font-size: 40px;
     font-weight: 400;
@@ -2877,8 +2909,8 @@
     height: 70px;
     padding-bottom: 20px;
   }
-  .b-info .b-photo_1 .b-exp .experience {
-    width: 113px;
+  .b-info .b-info-photo_1 .b-info-photo_1-experience .info-photo_1-experience-experience {
+    width: 79px;
     height: 84px;
     font-family: 'Gilroy';
     font-size: 20px;
@@ -2888,7 +2920,7 @@
     margin-left: 34px;
     color: white;
   }
-  .b-info .b-who-we-are {
+  .b-info .b-about-us {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2899,8 +2931,9 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    margin-bottom: 30px;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 {
+  .b-info .b-about-us .b-about-us-text {
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2913,14 +2946,14 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .about_us {
+  .b-info .b-about-us .b-about-us-text .about-us-text-heading-text {
     color: #FFB800;
     font-family: 'Gilroy';
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 9.699999809265137px;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .who-we-are {
+  .b-info .b-about-us .b-about-us-text .about-us-text-question {
     margin-top: 8px;
     font-family: 'Playfair Display';
     font-size: 40px;
@@ -2929,11 +2962,11 @@
     letter-spacing: 0.20000000298023224px;
     text-align: left;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_1 {
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-1 {
     margin-top: 27px;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_1,
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_2 {
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-1,
+  .b-info .b-about-us .b-about-us-text .about-us-text-text-2 {
     font-family: 'Gilroy';
     font-size: 16px;
     font-style: normal;
@@ -2942,14 +2975,15 @@
     letter-spacing: 0.20000000298023224px;
     color: #7C7C7C;
   }
-  .b-info .b-who-we-are .b-who-we-are-2 .text-info_2 {
+  .b-info .b-about-us .b-about-us-text .text-info_2 {
     margin-bottom: 20px;
   }
-  .b-stats {
-    height: 800px;
+  .b-statistic {
+    height: auto;
+    width: 425px;
     background-color: black;
   }
-  .b-stats .b-parts-of-work {
+  .b-statistic .b-statistic-life-circle-of-our-job {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2959,7 +2993,7 @@
             flex-direction: column;
     margin-left: 34px;
   }
-  .b-stats .b-parts-of-work h4 {
+  .b-statistic .b-statistic-life-circle-of-our-job h4 {
     font-family: 'Gilroy';
     font-size: 18px;
     color: #FFB800;
@@ -2968,7 +3002,7 @@
     padding-top: 62px;
     text-transform: uppercase;
   }
-  .b-stats .b-parts-of-work h2 {
+  .b-statistic .b-statistic-life-circle-of-our-job h2 {
     color: white;
     margin-top: 8px;
     font-family: 'Playfair Display';
@@ -2977,7 +3011,7 @@
     font-weight: 400;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-stats .b-parts-of-work .parts {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2987,7 +3021,7 @@
     width: 100%;
     height: 400px;
   }
-  .b-stats .b-parts-of-work .parts .circle-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -2995,7 +3029,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-1:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-1:after {
     border-radius: 50%;
     display: block;
     content: "1";
@@ -3018,17 +3052,17 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p1 {
     margin: 0;
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(-30deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .line-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .line-1 {
     height: 2px;
     width: 70px;
     background-color: #b5acac;
     margin-top: 34px;
   }
-  .b-stats .b-parts-of-work .parts .circle-2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -3036,7 +3070,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-2:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-2:after {
     border-radius: 50%;
     display: block;
     content: "2";
@@ -3058,11 +3092,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p2 {
     margin: 0;
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(40deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -3071,7 +3105,7 @@
     border-radius: 50%;
     margin-bottom: 30px;
   }
-  .b-stats .b-parts-of-work .parts .circle-3:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-3:after {
     border-radius: 50%;
     display: block;
     content: "3";
@@ -3093,15 +3127,15 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p3 {
     margin: 0;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, #b5acac), color-stop(50%, #FFB800));
     background-image: linear-gradient(90deg, #b5acac 50%, transparent 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .line-1-del {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .line-1-del {
     display: none;
   }
-  .b-stats .b-parts-of-work .parts .circle-4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -3109,7 +3143,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-4:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-4:after {
     border-radius: 50%;
     display: block;
     content: "4";
@@ -3131,11 +3165,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p4 {
     margin: 0;
     background-image: linear-gradient(150deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -3143,7 +3177,7 @@
     position: relative;
     border-radius: 50%;
   }
-  .b-stats .b-parts-of-work .parts .circle-5:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-5:after {
     border-radius: 50%;
     display: block;
     content: "5";
@@ -3166,11 +3200,11 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p5 {
     margin: 0;
     background-image: linear-gradient(210deg, transparent 50%, #FFB800 50%), linear-gradient(90deg, #b5acac 50%, #FFB800 50%);
   }
-  .b-stats .b-parts-of-work .parts .circle-6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6 {
     display: inline-block;
     margin: .5em;
     width: 66px;
@@ -3179,7 +3213,7 @@
     border-radius: 50%;
     background-color: #FFB800;
   }
-  .b-stats .b-parts-of-work .parts .circle-6:after {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .b-parts-circle-6:after {
     border-radius: 50%;
     display: block;
     content: "6";
@@ -3202,10 +3236,10 @@
     height: 58px;
     width: 58px;
   }
-  .b-stats .b-parts-of-work .parts .p6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .b-statistic-life-circle-of-our-job-parts .p6 {
     margin: 0;
   }
-  .b-stats .b-parts-of-work .b-text-we-do {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job {
     margin-top: 29.24px;
     width: 100%;
     height: 100px;
@@ -3223,57 +3257,55 @@
     color: #FFFFFF;
     position: relative;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-1 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-1 {
     width: 100px;
     height: 44px;
     position: absolute;
     bottom: 400%;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-2 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-2 {
     width: 120px;
     height: 60px;
     position: absolute;
     bottom: 382%;
     left: 30%;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-3 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-3 {
     width: 100px;
     height: 20px;
     position: absolute;
     bottom: 420%;
     left: 70%;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-4 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-4 {
     width: 100px;
     height: 22px;
     position: absolute;
     bottom: 220%;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-5 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-5 {
     width: 100px;
     height: 44px;
     position: absolute;
     bottom: 200%;
     left: 33%;
   }
-  .b-stats .b-parts-of-work .b-text-we-do .paragraph-6 {
+  .b-statistic .b-statistic-life-circle-of-our-job .statistic-life-circle-of-our-job-list-of-job .list-of-job-paragraph-6 {
     width: 107px;
     height: 22px;
     position: absolute;
     bottom: 220%;
     left: 73%;
   }
-  .b-slider {
-    width: 245.6px;
-  }
-  .b-jobs {
+  .b-our-jobs {
+    width: 425px;
     height: auto;
     background-image: url("../photos/two-bedroom-x2--plan 1.png");
     background-repeat: no-repeat;
     background-size: 692px 606px;
     background-position: 37% 120%;
   }
-  .b-jobs .part {
+  .b-our-jobs .our-jobs-portfolio {
     font-family: 'Gilroy';
     margin-top: 50px;
     font-size: 16px;
@@ -3282,7 +3314,7 @@
     text-align: center;
     color: #FFB800;
   }
-  .b-jobs .our-jobs {
+  .b-our-jobs .our-jobs-our-jobs {
     font-family: 'Playfair Display';
     font-size: 36px;
     font-style: normal;
@@ -3290,7 +3322,7 @@
     letter-spacing: 0.20000000298023224px;
     text-align: center;
   }
-  .b-jobs .b-info-and-work {
+  .b-our-jobs .b-info-and-work {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3300,7 +3332,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .b-jobs .b-info-and-work .b-info-about-job {
+  .b-our-jobs .b-info-and-work .b-info-about-job {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3308,10 +3340,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 40%;
     width: 100%;
   }
-  .b-jobs .b-info-and-work .b-info-about-job h5 {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-project-name {
     margin-top: 80px;
     width: 100%;
     font-family: 'Gilroy-Bold';
@@ -3319,42 +3354,43 @@
     letter-spacing: 0.20000000298023224px;
     margin-left: 10%;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .text-about-job {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-text-about-job {
     margin-top: 20px;
+    width: 390px;
     font-family: 'Gilroy';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .deadline {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline {
     margin-top: 31px;
     font-family: 'Gilroy';
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .deadline strong {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-deadline strong {
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .square {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square {
     margin-top: 12px;
     font-family: 'Gilroy';
     font-size: 20px;
     font-style: normal;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .b-info-about-job .square strong {
+  .b-our-jobs .b-info-and-work .b-info-about-job .info-about-job-square strong {
     font-family: 'Gilroy-Bold';
     font-size: 18px;
     letter-spacing: 0.20000000298023224px;
   }
-  .b-jobs .b-info-and-work .photos-gallery {
+  .b-our-jobs .b-info-and-work .b-photos-gallery {
     width: 100%;
     margin-top: 9px;
   }
-  .b-jobs .b-info-and-work .photos {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photos {
     height: 698px;
     width: 100%;
     margin-left: -10px;
@@ -3363,30 +3399,54 @@
     display: flex;
     margin-top: 28px;
   }
-  .b-jobs .b-info-and-work .choose {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose {
     width: 0px;
     height: 0px;
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .sz {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-mini {
     width: 0px;
     height: 0px;
   }
-  .b-jobs .b-info-and-work .choose .photo-1 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-2 {
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .photo-2 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-2 {
     display: none;
   }
-  .b-jobs .b-info-and-work .choose .photo-3 {
+  .b-our-jobs .b-info-and-work .b-photos-gallery-photo-choose .photo-choose-photo-3 {
     display: none;
   }
-  .b-jobs .b-info-and-work .main-photo {
-    width: 425.6px;
+  .b-our-jobs .b-info-and-work .b-slider {
+    width: 245px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo {
+    width: 425px;
     margin-left: 5px;
     height: 604px;
   }
-  .b-jobs .b-info-and-work .main-photo .block {
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .b-slider-main-photo {
+    width: 425px;
+    margin-left: 5px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .b-slider-main-photo .b-slider-main-photo-photo1 {
+    width: 425px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .b-slider-main-photo .b-slider-main-photo-photo2 {
+    width: 425px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .b-slider-main-photo .b-slider-main-photo-photo3 {
+    width: 425px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .b-slider-main-photo .b-slider-main-photo-photo4 {
+    width: 425px;
+    height: 604px;
+  }
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo .slider-main-photo-block-photo {
     display: block;
     -o-object-fit: cover;
        object-fit: cover;
@@ -3395,96 +3455,15 @@
     margin-left: 5px;
     margin-right: 0;
   }
-  .b-jobs .b-info-and-work .main-photo img {
+  .b-our-jobs .b-info-and-work .b-slider .b-slider-main-photo img {
     display: none;
   }
-  .b-jobs .b-info-and-work .b-check-next {
-    width: 425.6px;
-    height: 92.5px;
-    background-color: #FFB800;
-    margin-left: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    margin-bottom: 0;
-  }
-  .b-jobs .b-info-and-work .b-check-next .points {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 40%;
-  }
-  .b-jobs .b-info-and-work .b-check-next .points .active {
-    margin-left: 20px;
-    color: white;
-    font-size: 25px;
-  }
-  .b-jobs .b-info-and-work .b-check-next .points .p {
-    color: #555555;
-    margin-left: 20px;
-    font-size: 20px;
-  }
-  .b-jobs .b-info-and-work .b-check-next .arrows {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 50px;
-    position: absolute;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    bottom: 400%;
-    width: 400px;
-    height: 50px;
-    margin-right: 2%;
-  }
-  .b-jobs .b-info-and-work .b-check-next .arrows .left-1 {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    border-radius: 50%;
-    opacity: 0.5;
-    background: #d0cbcb;
-    width: 50px;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .b-jobs .b-info-and-work .b-check-next .arrows .right-1 {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-    opacity: 0.5;
-    background: #d0cbcb;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .b-our-jobs .b-info-and-work .b-slider .b-slide-choose-next-photo {
+    display: none;
   }
   .b-feedback {
     height: auto;
-    width: 100%;
+    width: 425px;
     background: url("../photos/feedback.png");
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3492,12 +3471,12 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
   }
-  .b-feedback .feedback-info {
+  .b-feedback .b-feedback-info {
     height: 671px;
     width: 0%;
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3505,11 +3484,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .b-feedback .feedback-info h4 {
+  .b-feedback .b-feedback-info .feedback-info-feedback {
     font-family: 'Gilroy';
     font-size: 18px;
     font-style: normal;
@@ -3520,9 +3501,9 @@
     color: #FFB800;
     margin-top: 75px;
   }
-  .b-feedback .feedback-info h2 {
+  .b-feedback .b-feedback-info .feedback-info-clients-feedback {
     margin-top: 8px;
-    width: 490px;
+    width: 400px;
     text-align: center;
     font-family: 'Playfair Display';
     font-size: 40px;
@@ -3531,7 +3512,7 @@
     letter-spacing: 0.20000000298023224px;
     color: white;
   }
-  .b-feedback .feedback-info .text-feedback {
+  .b-feedback .b-feedback-info .feedback-info-text-feedback {
     margin-top: 70px;
     width: 400px;
     text-align: center;
@@ -3543,11 +3524,11 @@
     letter-spacing: 0.01em;
     position: relative;
   }
-  .b-feedback .feedback-info .text-feedback::after {
+  .b-feedback .b-feedback-info .feedback-info-text-feedback::after {
     content: "";
     display: none;
   }
-  .b-feedback .feedback-info .author {
+  .b-feedback .b-feedback-info .feedback-info-author {
     margin-top: 21px;
     font-family: 'Gilroy-Bold';
     font-size: 20px;
@@ -3557,22 +3538,22 @@
     color: white;
     width: 200px;
   }
-  .b-feedback .feedback-info .slice {
+  .b-feedback .b-feedback-info .b-feedback-info-slice {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 80px;
   }
-  .b-feedback .feedback-info .slice .arrow-left-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 {
     margin-right: 41px;
     width: 150px;
     list-style-type: none;
   }
-  .b-feedback .feedback-info .slice .arrow-left-2 li {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-arrow-left-2 li {
     color: #fff;
     font-size: 30px;
   }
-  .b-feedback .feedback-info .slice .points-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3582,24 +3563,26 @@
     color: #9b9b9b;
     margin-left: 30px;
   }
-  .b-feedback .feedback-info .slice .points-2 .active-point-2 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-active-point-2 {
     font-size: 25px;
     color: #FFB800;
     -webkit-box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
             box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.43);
   }
-  .b-feedback .feedback-info .slice .points-2 .p-2-1 {
+  .b-feedback .b-feedback-info .b-feedback-info-slice .slice-points-2 .slice-points-2-simple-point {
     font-size: 20px;
     margin-left: 23px;
   }
-  .b-feedback .feedback-info .arrow-right-2 {
+  .b-feedback .b-feedback-info .slice-arrow-right-2 {
     margin-left: 20px;
     display: none;
   }
-  .b-feedback .feedback-info .arrow-left-2 {
+  .b-feedback .b-feedback-info .slice-arrow-left-2 {
     display: none;
   }
   .b-contact {
+    height: 455px;
+    width: 425px;
     background-color: #FFB800;
     color: white;
     display: -webkit-box;
@@ -3611,9 +3594,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 430px;
   }
   .b-contact .b-contact-info {
+    width: 425px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3627,17 +3610,17 @@
     -ms-flex-item-align: start;
         align-self: start;
   }
-  .b-contact .b-contact-info .contact-text {
+  .b-contact .b-contact-info .contact-info-text {
     padding-top: 45px;
     font-family: 'Playfair Display';
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     margin-left: 50px;
-    width: 425px;
+    width: 370px;
     padding-left: 10%;
   }
-  .b-contact .b-contact-info .contact-info {
+  .b-contact .b-contact-info .contact-info-information {
     font-family: 'Gilroy';
     font-size: 18px;
     font-style: normal;
@@ -3645,32 +3628,36 @@
     font-weight: 400;
     letter-spacing: 0.005em;
     width: 400px;
-    margin-left: 8%;
+    margin-left: 10px;
     text-align: center;
   }
-  .b-contact .b-contact-info .contact-form {
-    width: 100%;
+  .b-contact .b-contact-info .contact-info-form-to-contact {
+    width: 425px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 400px;
+    width: 425px;
     margin-left: 0%;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name {
-    margin-top: 65px;
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name {
+    margin-top: 35px;
     background-color: #FFB800;
     border: none;
     outline: none;
     border-bottom: 0.5px solid #FFFFFF;
-    width: 35%;
+    width: 60%;
     height: 24px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-webkit-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3679,7 +3666,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name:-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3688,7 +3675,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3697,7 +3684,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-name::placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-name::placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3706,16 +3693,17 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel {
-    margin-top: 65px;
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel {
+    margin-left: 85px;
+    margin-top: 35px;
     background-color: #FFB800;
     border: none;
     border-bottom: 0.5px solid #FFFFFF;
-    width: 35%;
+    width: 60%;
     height: 24px;
     outline: none;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-webkit-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3724,7 +3712,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel:-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3733,7 +3721,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::-ms-input-placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3742,7 +3730,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .b-contact-info .contact-form .b-user-contact .inpt-tel::placeholder {
+  .b-contact .b-contact-info .contact-info-form-to-contact .b-contact-info-form-to-contact-user-contact .inpt-user-contact-tel::placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3751,17 +3739,17 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text {
-    margin-top: 42px;
+  .b-contact .inpt-user-contact-text {
+    margin-top: 35px;
+    margin-left: 85px;
     background-color: #FFB800;
     border: none;
     border-bottom: 0.5px solid #FFFFFF;
-    width: 67%;
+    width: 60%;
     height: 24px;
-    margin-left: 17%;
     outline: none;
   }
-  .b-contact .inpt-text::-webkit-input-placeholder {
+  .b-contact .inpt-user-contact-text::-webkit-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3770,7 +3758,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text:-ms-input-placeholder {
+  .b-contact .inpt-user-contact-text:-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3779,7 +3767,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text::-ms-input-placeholder {
+  .b-contact .inpt-user-contact-text::-ms-input-placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3788,7 +3776,7 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .inpt-text::placeholder {
+  .b-contact .inpt-user-contact-text::placeholder {
     font-family: 'Gilroy';
     font-size: 12px;
     font-style: normal;
@@ -3797,8 +3785,8 @@
     color: #FFFFFF;
     margin-bottom: 7px;
   }
-  .b-contact .btn-send {
-    margin-left: 16%;
+  .b-contact .b-btn-send-user-contact {
+    margin-left: 35%;
     width: 128px;
     height: 42px;
     margin-top: 42px;
@@ -3821,6 +3809,7 @@
   }
   .b-footer {
     height: 400px;
+    width: 425px;
     background-color: #000000;
     color: white;
   }
@@ -3832,32 +3821,32 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .b-footer .b-footer-info .b-logo div {
+  .b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-logo {
     color: #FFB800;
     font-family: 'Gilroy-Bold';
     font-size: 28px;
     margin-top: 20px;
     margin-left: 35%;
   }
-  .b-footer .b-footer-info .b-logo p {
+  .b-footer .b-footer-info .b-footer-info-logo .b-footer-info-logo-text {
     width: 308px;
     height: 75px;
     margin-left: 6%;
   }
-  .b-footer .b-footer-info .b-about-us {
+  .b-footer .b-footer-info .b-footer-info-about-us {
     display: none;
   }
-  .b-footer .b-footer-info .b-about-us ul {
+  .b-footer .b-footer-info .b-footer-info-about-us ul {
     list-style-type: none;
     margin-top: 154px;
   }
-  .b-footer .b-footer-info .b-about-us ul .list_2 {
+  .b-footer .b-footer-info .b-footer-info-about-us ul .b-footer-info-about-us-portfolio {
     margin-top: 23px;
   }
-  .b-footer .b-footer-info .b-about-us ul .list_3 {
+  .b-footer .b-footer-info .b-footer-info-about-us ul .b-footer-info-about-us-job-stage {
     margin-top: 23px;
   }
-  .b-footer .b-footer-info .b-adress {
+  .b-footer .b-footer-info .b-footer-info-adress {
     margin-top: 154px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3872,16 +3861,16 @@
     width: 70%;
     margin-left: 6%;
   }
-  .b-footer .b-footer-info .b-adress .adress-phone {
+  .b-footer .b-footer-info .b-footer-info-adress .footer-info-adress-adress-phone {
     margin-top: 20px;
     margin-left: 30%;
   }
-  .b-footer .b-footer-info .b-find-us {
+  .b-footer .b-footer-info .b-footer-info-find-us {
     top: 70%;
     position: absolute;
     width: 200px;
   }
-  .b-footer .b-footer-info .b-find-us ul {
+  .b-footer .b-footer-info .b-footer-info-find-us ul {
     list-style-type: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3895,11 +3884,11 @@
             justify-content: space-between;
     height: 60px;
   }
-  .b-footer .b-footer-info .b-find-us ul li img {
+  .b-footer .b-footer-info .b-footer-info-find-us ul li img {
     width: 40px;
     height: 40px;
   }
-  .b-footer .b-footer-info .b-find-us ul .find-us-li-2 {
+  .b-footer .b-footer-info .b-footer-info-find-us ul .b-footer-info-find-us-social-network {
     margin-top: 0;
   }
 }
